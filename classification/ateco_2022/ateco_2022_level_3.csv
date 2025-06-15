@@ -1,1141 +1,273 @@
-main,code,level,title,description,descriptor,exclusion_list,exclusion_description,exclusion_title
-A,01.1,gruppo,coltivazione di colture agricole non permanenti,"Questo gruppo include la coltivazione di colture non permanenti, ossia piante che non durano più di due stagioni agricole. È inclusa la coltivazione di queste piante per la produzione di sementi.","# coltivazione di colture agricole non permanenti
-
-Questo gruppo include la coltivazione di colture non permanenti, ossia piante che non durano più di due stagioni agricole. È inclusa la coltivazione di queste piante per la produzione di sementi.
-",,,
-A,01.2,gruppo,coltivazione di colture permanenti,"Questo gruppo include la coltivazione di colture permanenti, ossia di piante che durano nel terreno più di due annate agrarie, che pur morendo stagionalmente ricrescono in modo costante. È inclusa la coltivazione di queste piante per la produzione di sementi.","# coltivazione di colture permanenti
-
-Questo gruppo include la coltivazione di colture permanenti, ossia di piante che durano nel terreno più di due annate agrarie, che pur morendo stagionalmente ricrescono in modo costante. È inclusa la coltivazione di queste piante per la produzione di sementi.
-",,,
-A,01.3,gruppo,riproduzione delle piante,,"# riproduzione delle piante
-
-
-",,,
-A,01.4,gruppo,allevamento di animali,"Questo gruppo include l'allevamento e la riproduzione di tutti gli animali (esclusa la fauna acquatica). Sono escluse le seguenti attività: - gestione e cura del bestiame per conto terzi, cfr. 01.62 - produzione di pellame proveniente dai macelli, cfr. 10.11","# allevamento di animali
-
-Questo gruppo include l'allevamento e la riproduzione di tutti gli animali (esclusa la fauna acquatica). Sono escluse le seguenti attività: - gestione e cura del bestiame per conto terzi, cfr. 01.62 - produzione di pellame proveniente dai macelli, cfr. 10.11
-
-Questa sezione ATECO non comprende le seguenti attività:
-
-- gestione e cura del bestiame per conto terzi, cfr. 01.62 - produzione di pellame proveniente dai macelli, cfr. 10.11, esclusa la fauna acquatica
-","- gestione e cura del bestiame per conto terzi, cfr. 01.62 - produzione di pellame proveniente dai macelli, cfr. 10.11",esclusa la fauna acquatica,
-A,01.5,gruppo,coltivazioni agricole associate all'allevamento di animali: attività mista,,"# coltivazioni agricole associate all'allevamento di animali: attività mista
-
-
-",,,
-A,01.6,gruppo,attività di supporto all'agricoltura e attività successive alla raccolta,"Questo gruppo include le attività connesse alla produzione agricola e le attività similari non finalizzate alla raccolta di prodotti agricoli, effettuate per conto terzi. Sono anche incluse le attività che seguono la raccolta, mirate alla preparazione dei prodotti agricoli per il mercato primario.","# attività di supporto all'agricoltura e attività successive alla raccolta
-
-Questo gruppo include le attività connesse alla produzione agricola e le attività similari non finalizzate alla raccolta di prodotti agricoli, effettuate per conto terzi. Sono anche incluse le attività che seguono la raccolta, mirate alla preparazione dei prodotti agricoli per il mercato primario.
-",,,
-A,01.7,gruppo,"caccia, cattura di animali e servizi connessi",,"# caccia, cattura di animali e servizi connessi
-
-
-",,,
-A,02.1,gruppo,silvicoltura ed altre attività forestali,,"# silvicoltura ed altre attività forestali
-
-
-",,,
-A,02.2,gruppo,utilizzo di aree forestali,,"# utilizzo di aree forestali
-
-
-",,,
-A,02.3,gruppo,raccolta di prodotti selvatici non legnosi,,"# raccolta di prodotti selvatici non legnosi
-
-
-",,,
-A,02.4,gruppo,servizi di supporto per la silvicoltura,,"# servizi di supporto per la silvicoltura
-
-
-",,,
-A,03.1,gruppo,pesca,"Questo gruppo include ""la cattura di fauna marina"", ossia le attività di caccia, rimozione e cattura di organismi acquatici viventi (generalmente pesci, molluschi e crostacei), incluse le alghe provenienti da acque oceaniche, costiere o interne, destinate al consumo da parte dell'uomo e ad altri scopi, effettuate a mano o più generalmente tramite attrezzature da pesca come reti e trappole in linea o stazionarie. Tali attività possono essere condotte sulla linea costiera litorale (per esempio, la raccolta di molluschi come cozze ed ostriche), tramite cattura con reti a terra, utilizzando imbarcazioni in acque interne, costiere o in mare aperto. Tali attività includono anche la pesca professionale in specchi d'acqua ripopolati.","# pesca
-
-Questo gruppo include ""la cattura di fauna marina"", ossia le attività di caccia, rimozione e cattura di organismi acquatici viventi (generalmente pesci, molluschi e crostacei), incluse le alghe provenienti da acque oceaniche, costiere o interne, destinate al consumo da parte dell'uomo e ad altri scopi, effettuate a mano o più generalmente tramite attrezzature da pesca come reti e trappole in linea o stazionarie. Tali attività possono essere condotte sulla linea costiera litorale (per esempio, la raccolta di molluschi come cozze ed ostriche), tramite cattura con reti a terra, utilizzando imbarcazioni in acque interne, costiere o in mare aperto. Tali attività includono anche la pesca professionale in specchi d'acqua ripopolati.
-",,,
-A,03.2,gruppo,acquacoltura,"Questo gruppo include ""l'acquacoltura"" (o aquafarming), ossia il processo di produzione che prevede la coltivazione o l'allevamento (inclusa la raccolta) di organismi acquatici (pesci, molluschi, crostacei, piante, coccodrilli, alligatori e anfibi) utilizzando tecniche progettate per aumentare la produzione di tali organismi, oltre la capacità naturale dell'ambiente (per esempio, nutrimento regolare e difesa dai predatori).","# acquacoltura
-
-Questo gruppo include ""l'acquacoltura"" (o aquafarming), ossia il processo di produzione che prevede la coltivazione o l'allevamento (inclusa la raccolta) di organismi acquatici (pesci, molluschi, crostacei, piante, coccodrilli, alligatori e anfibi) utilizzando tecniche progettate per aumentare la produzione di tali organismi, oltre la capacità naturale dell'ambiente (per esempio, nutrimento regolare e difesa dai predatori).
-",,,
-B,05.1,gruppo,estrazione di antracite,,"# estrazione di antracite
-
-
-",,,
-B,05.2,gruppo,estrazione di lignite,,"# estrazione di lignite
-
-
-",,,
-B,06.1,gruppo,estrazione di petrolio greggio,,"# estrazione di petrolio greggio
-
-
-",,,
-B,06.2,gruppo,estrazione di gas naturale,,"# estrazione di gas naturale
-
-
-",,,
-B,07.1,gruppo,estrazione di minerali metalliferi ferrosi,,"# estrazione di minerali metalliferi ferrosi
-
-
-",,,
-B,07.2,gruppo,estrazione di minerali metalliferi non ferrosi,,"# estrazione di minerali metalliferi non ferrosi
-
-
-",,,
-B,08.1,gruppo,"estrazione di pietra, sabbia e argilla",,"# estrazione di pietra, sabbia e argilla
-
-
-",,,
-B,08.9,gruppo,estrazione di minerali da cave e miniere n.c.a.,,"# estrazione di minerali da cave e miniere n.c.a.
-
-
-",,,
-B,09.1,gruppo,attività di supporto all'estrazione di petrolio e di gas naturale,,"# attività di supporto all'estrazione di petrolio e di gas naturale
-
-
-",,,
-B,09.9,gruppo,attività di supporto per l'estrazione da cave e miniere di altri minerali,,"# attività di supporto per l'estrazione da cave e miniere di altri minerali
-
-
-",,,
-C,10.1,gruppo,lavorazione e conservazione di carne e produzione di prodotti a base di carne,,"# lavorazione e conservazione di carne e produzione di prodotti a base di carne
-
-
-",,,
-C,10.2,gruppo,"lavorazione e conservazione di pesce, crostacei e molluschi",,"# lavorazione e conservazione di pesce, crostacei e molluschi
-
-
-",,,
-C,10.3,gruppo,lavorazione e conservazione di frutta e ortaggi,,"# lavorazione e conservazione di frutta e ortaggi
-
-
-",,,
-C,10.4,gruppo,produzione di oli e grassi vegetali e animali,"Questo gruppo include la produzione di oli e grassi grezzi e raffinati di origine vegetale o animale, eccetto la fusione o la lavorazione di strutto e altri grassi animali commestibili.","# produzione di oli e grassi vegetali e animali
-
-Questo gruppo include la produzione di oli e grassi grezzi e raffinati di origine vegetale o animale, eccetto la fusione o la lavorazione di strutto e altri grassi animali commestibili.
-",,,
-C,10.5,gruppo,industria lattiero-casearia,,"# industria lattiero-casearia
-
-
-",,,
-C,10.6,gruppo,"lavorazione delle granaglie, produzione di amidi e di prodotti amidacei","Questo gruppo include la molitura di farina o sfarinati di granaglie o ortaggi, la molitura, la pulitura e la lucidatura del riso, oltre alla produzione di farine miscelate o impasti di tali prodotti. In questo gruppo si include anche la macinatura umida del granoturco e degli ortaggi, nonché la produzione di amido e prodotti amidacei.","# lavorazione delle granaglie, produzione di amidi e di prodotti amidacei
-
-Questo gruppo include la molitura di farina o sfarinati di granaglie o ortaggi, la molitura, la pulitura e la lucidatura del riso, oltre alla produzione di farine miscelate o impasti di tali prodotti. In questo gruppo si include anche la macinatura umida del granoturco e degli ortaggi, nonché la produzione di amido e prodotti amidacei.
-",,,
-C,10.7,gruppo,produzione di prodotti da forno e farinacei,"Questo gruppo include la produzione di prodotti di panetteria, paste alimentari e prodotti simili.","# produzione di prodotti da forno e farinacei
-
-Questo gruppo include la produzione di prodotti di panetteria, paste alimentari e prodotti simili.
-",,,
-C,10.8,gruppo,produzione di altri prodotti alimentari,"Questo gruppo include la produzione di zucchero e confetterie, pasti e piatti pronti, caffè, tè e spezie, alimenti confezionati deperibili, prodotti alimentari specializzati.","# produzione di altri prodotti alimentari
-
-Questo gruppo include la produzione di zucchero e confetterie, pasti e piatti pronti, caffè, tè e spezie, alimenti confezionati deperibili, prodotti alimentari specializzati.
-",,,
-C,10.9,gruppo,produzione di prodotti per l'alimentazione degli animali,,"# produzione di prodotti per l'alimentazione degli animali
-
-
-",,,
-C,11.0,gruppo,industria delle bevande,,"# industria delle bevande
-
-
-",,,
-C,12.0,gruppo,industria del tabacco,,"# industria del tabacco
-
-
-",,,
-C,13.1,gruppo,preparazione e filatura di fibre tessili,,"# preparazione e filatura di fibre tessili
-
-
-",,,
-C,13.2,gruppo,tessitura,,"# tessitura
-
-
-",,,
-C,13.3,gruppo,finissaggio dei tessili,,"# finissaggio dei tessili
-
-
-",,,
-C,13.9,gruppo,altre industrie tessili,"Questo gruppo include la fabbricazione di prodotti tessili, ad eccezione degli articoli di vestiario, come tessuti a maglia, biancheria, tappeti e tappetini, corde, nastri, passamaneria eccetera.","# altre industrie tessili
-
-Questo gruppo include la fabbricazione di prodotti tessili, ad eccezione degli articoli di vestiario, come tessuti a maglia, biancheria, tappeti e tappetini, corde, nastri, passamaneria eccetera.
-",,,
-C,14.1,gruppo,confezione di articoli di abbigliamento (escluso abbigliamento in pelliccia),"Questo gruppo include la fabbricazione di articoli di vestiario. Il materiale utilizzato può essere di qualsiasi tipo e può essere spalmato, impregnato o gommato.","# confezione di articoli di abbigliamento (escluso abbigliamento in pelliccia)
-
-Questo gruppo include la fabbricazione di articoli di vestiario. Il materiale utilizzato può essere di qualsiasi tipo e può essere spalmato, impregnato o gommato.
-",,,
-C,14.2,gruppo,confezione di articoli in pelliccia,,"# confezione di articoli in pelliccia
-
-
-",,,
-C,14.3,gruppo,fabbricazione di articoli di maglieria,,"# fabbricazione di articoli di maglieria
-
-
-",,,
-C,15.1,gruppo,"preparazione e concia del cuoio; fabbricazione di articoli da viaggio, borse, pelletteria e selleria; preparazione e tintura di pellicce","Questo gruppo include la fabbricazione di cuoio, pelle e pelliccia e articoli derivati","# preparazione e concia del cuoio; fabbricazione di articoli da viaggio, borse, pelletteria e selleria; preparazione e tintura di pellicce
-
-Questo gruppo include la fabbricazione di cuoio, pelle e pelliccia e articoli derivati
-",,,
-C,15.2,gruppo,fabbricazione di calzature,,"# fabbricazione di calzature
-
-
-",,,
-C,16.1,gruppo,taglio e piallatura del legno,,"# taglio e piallatura del legno
-
-
-",,,
-C,16.2,gruppo,"fabbricazione di prodotti in legno, sughero, paglia e materiali da intreccio","Questo gruppo include la fabbricazione di prodotti in legno, in sughero, paglia e materiali da intreccio, incluse le sagome e i prodotti assemblati.","# fabbricazione di prodotti in legno, sughero, paglia e materiali da intreccio
-
-Questo gruppo include la fabbricazione di prodotti in legno, in sughero, paglia e materiali da intreccio, incluse le sagome e i prodotti assemblati.
-",,,
-C,17.1,gruppo,"fabbricazione di pasta-carta, carta e cartone",,"# fabbricazione di pasta-carta, carta e cartone
-
-
-",,,
-C,17.2,gruppo,fabbricazione di articoli di carta e cartone,,"# fabbricazione di articoli di carta e cartone
-
-
-",,,
-C,18.1,gruppo,stampa e servizi connessi alla stampa,"Questo gruppo include le attività di stampa di quotidiani, libri, periodici, moduli commerciali, biglietti d'auguri e altro materiale; sono comprese anche le attività di supporto, quali la legatoria, la preparazione di lastre, di testi e di immagini. La stampa può essere effettuata utilizzando tecniche e materiali differenti.","# stampa e servizi connessi alla stampa
-
-Questo gruppo include le attività di stampa di quotidiani, libri, periodici, moduli commerciali, biglietti d'auguri e altro materiale; sono comprese anche le attività di supporto, quali la legatoria, la preparazione di lastre, di testi e di immagini. La stampa può essere effettuata utilizzando tecniche e materiali differenti.
-",,,
-C,18.2,gruppo,riproduzione di supporti registrati,,"# riproduzione di supporti registrati
-
-
-",,,
-C,19.1,gruppo,fabbricazione di prodotti di cokeria,,"# fabbricazione di prodotti di cokeria
-
-
-",,,
-C,19.2,gruppo,fabbricazione di prodotti derivanti dalla raffinazione del petrolio,,"# fabbricazione di prodotti derivanti dalla raffinazione del petrolio
-
-
-",,,
-C,20.1,gruppo,"fabbricazione di prodotti chimici di base, di fertilizzanti e composti azotati, di materie plastiche e gomma sintetica in forme primarie",,"# fabbricazione di prodotti chimici di base, di fertilizzanti e composti azotati, di materie plastiche e gomma sintetica in forme primarie
-
-
-",,,
-C,20.2,gruppo,fabbricazione di agrofarmaci e di altri prodotti chimici per l'agricoltura,,"# fabbricazione di agrofarmaci e di altri prodotti chimici per l'agricoltura
-
-
-",,,
-C,20.3,gruppo,"fabbricazione di pitture, vernici e smalti, inchiostri da stampa e adesivi sintetici (mastici)",,"# fabbricazione di pitture, vernici e smalti, inchiostri da stampa e adesivi sintetici (mastici)
-
-
-",,,
-C,20.4,gruppo,"fabbricazione di saponi e detergenti, di prodotti per la pulizia e la lucidatura, di profumi e cosmetici",,"# fabbricazione di saponi e detergenti, di prodotti per la pulizia e la lucidatura, di profumi e cosmetici
-
-
-",,,
-C,20.5,gruppo,fabbricazione di altri prodotti chimici,"Questo gruppo include la fabbricazione di esplosivi e articoli pirotecnici, colle, oli essenziali e altri prodotti chimici n.c.a. per esempio: preparazioni chimiche per uso fotografico (incluse pellicole e carta sensibilizzata), gelatine, preparazioni diagnostiche composite eccetera.","# fabbricazione di altri prodotti chimici
-
-Questo gruppo include la fabbricazione di esplosivi e articoli pirotecnici, colle, oli essenziali e altri prodotti chimici n.c.a. per esempio: preparazioni chimiche per uso fotografico (incluse pellicole e carta sensibilizzata), gelatine, preparazioni diagnostiche composite eccetera.
-",,,
-C,20.6,gruppo,fabbricazione di fibre sintetiche e artificiali,,"# fabbricazione di fibre sintetiche e artificiali
-
-
-",,,
-C,21.1,gruppo,fabbricazione di prodotti farmaceutici di base,,"# fabbricazione di prodotti farmaceutici di base
-
-
-",,,
-C,21.2,gruppo,fabbricazione di medicinali e preparati farmaceutici,,"# fabbricazione di medicinali e preparati farmaceutici
-
-
-",,,
-C,22.1,gruppo,fabbricazione di articoli in gomma,,"# fabbricazione di articoli in gomma
-
-
-",,,
-C,22.2,gruppo,fabbricazione di articoli in materie plastiche,"Questo gruppo comprende la trasformazione di resine plastiche nuove o usate (per esempio riciclate) in prodotti intermedi o finali, utilizzando processi quali la compressione, l'estrusione, l'iniezione, il soffio e la fusione. Nella maggior parte dei casi, il processo di produzione permette di ottenere una grande varietà di prodotti.","# fabbricazione di articoli in materie plastiche
-
-Questo gruppo comprende la trasformazione di resine plastiche nuove o usate (per esempio riciclate) in prodotti intermedi o finali, utilizzando processi quali la compressione, l'estrusione, l'iniezione, il soffio e la fusione. Nella maggior parte dei casi, il processo di produzione permette di ottenere una grande varietà di prodotti.
-",,,
-C,23.1,gruppo,fabbricazione di vetro e di prodotti in vetro,"Questo gruppo include la fabbricazione di vetro in tutte le sue forme e di prodotti in vetro, ottenuti tramite qualsiasi processo.","# fabbricazione di vetro e di prodotti in vetro
-
-Questo gruppo include la fabbricazione di vetro in tutte le sue forme e di prodotti in vetro, ottenuti tramite qualsiasi processo.
-",,,
-C,23.2,gruppo,fabbricazione di prodotti refrattari,,"# fabbricazione di prodotti refrattari
-
-
-",,,
-C,23.3,gruppo,fabbricazione di materiali da costruzione in terracotta,,"# fabbricazione di materiali da costruzione in terracotta
-
-
-",,,
-C,23.4,gruppo,fabbricazione di altri prodotti in porcellana e in ceramica,"Questo gruppo include la fabbricazione di prodotti finiti provenienti da minerali non metalliferi, come sabbia, ghiaia, pietra o argilla.","# fabbricazione di altri prodotti in porcellana e in ceramica
-
-Questo gruppo include la fabbricazione di prodotti finiti provenienti da minerali non metalliferi, come sabbia, ghiaia, pietra o argilla.
-",,,
-C,23.5,gruppo,"produzione di cemento, calce e gesso",,"# produzione di cemento, calce e gesso
-
-
-",,,
-C,23.6,gruppo,"fabbricazione di prodotti in calcestruzzo, cemento e gesso",,"# fabbricazione di prodotti in calcestruzzo, cemento e gesso
-
-
-",,,
-C,23.7,gruppo,"taglio, modellatura e finitura di pietre",,"# taglio, modellatura e finitura di pietre
-
-
-",,,
-C,23.9,gruppo,fabbricazione di prodotti abrasivi e di prodotti in minerali non metalliferi n.c.a.,,"# fabbricazione di prodotti abrasivi e di prodotti in minerali non metalliferi n.c.a.
-
-
-",,,
-C,24.1,gruppo,siderurgia,Questo gruppo comprende attività quali la riduzione diretta del minerale di ferro; la fabbricazione di ghisa grezza in forma liquida o solida; la conversione di ghisa grezza in acciaio; la fabbricazione di ferroleghe e di prodotti siderurgici.,"# siderurgia
-
-Questo gruppo comprende attività quali la riduzione diretta del minerale di ferro; la fabbricazione di ghisa grezza in forma liquida o solida; la conversione di ghisa grezza in acciaio; la fabbricazione di ferroleghe e di prodotti siderurgici.
-",,,
-C,24.2,gruppo,"fabbricazione di tubi, condotti, profilati cavi e relativi accessori in acciaio (esclusi quelli in acciaio colato)",,"# fabbricazione di tubi, condotti, profilati cavi e relativi accessori in acciaio (esclusi quelli in acciaio colato)
-
-
-",,,
-C,24.3,gruppo,fabbricazione di altri prodotti della prima trasformazione dell'acciaio,Questo gruppo include la fabbricazione di altri prodotti della trasformazione a freddo dell'acciaio.,"# fabbricazione di altri prodotti della prima trasformazione dell'acciaio
-
-Questo gruppo include la fabbricazione di altri prodotti della trasformazione a freddo dell'acciaio.
-",,,
-C,24.4,gruppo,"produzione di metalli di base preziosi e altri metalli non ferrosi, trattamento dei combustibili nucleari",,"# produzione di metalli di base preziosi e altri metalli non ferrosi, trattamento dei combustibili nucleari
-
-
-",,,
-C,24.5,gruppo,fonderie,"Questo gruppo include la fabbricazione di prodotti semilavorati e getti di vario genere che possono essere anche prodotti finiti, tramite fusione. Sono escluse le seguenti attività: - fabbricazione di prodotti di fusione finiti quali: contenitori per caldaie e radiatori, cfr. 25.21 - fabbricazione di prodotti domestici di fusione, cfr. 25.99","# fonderie
-
-Questo gruppo include la fabbricazione di prodotti semilavorati e getti di vario genere che possono essere anche prodotti finiti, tramite fusione. Sono escluse le seguenti attività: - fabbricazione di prodotti di fusione finiti quali: contenitori per caldaie e radiatori, cfr. 25.21 - fabbricazione di prodotti domestici di fusione, cfr. 25.99
-
-Questa sezione ATECO non comprende le seguenti attività:
-
-- fabbricazione di prodotti di fusione finiti quali: contenitori per caldaie e radiatori, cfr. 25.21 - fabbricazione di prodotti domestici di fusione, cfr. 25.99, 
-","- fabbricazione di prodotti di fusione finiti quali: contenitori per caldaie e radiatori, cfr. 25.21 - fabbricazione di prodotti domestici di fusione, cfr. 25.99",,
-C,25.1,gruppo,fabbricazione di elementi da costruzione in metallo,Questo gruppo include la fabbricazione di elementi da costruzione in metallo (quali strutture metalliche o parti di costruzioni).,"# fabbricazione di elementi da costruzione in metallo
-
-Questo gruppo include la fabbricazione di elementi da costruzione in metallo (quali strutture metalliche o parti di costruzioni).
-",,,
-C,25.2,gruppo,"fabbricazione di cisterne, serbatoi, radiatori e contenitori in metallo","Questo gruppo include la fabbricazione di serbatoi, cisterne, radiatori per riscaldamento e contenitori in metallo.","# fabbricazione di cisterne, serbatoi, radiatori e contenitori in metallo
-
-Questo gruppo include la fabbricazione di serbatoi, cisterne, radiatori per riscaldamento e contenitori in metallo.
-",,,
-C,25.3,gruppo,fabbricazione di generatori di vapore (esclusi i contenitori in metallo per caldaie per il riscaldamento centrale ad acqua calda),,"# fabbricazione di generatori di vapore (esclusi i contenitori in metallo per caldaie per il riscaldamento centrale ad acqua calda)
-
-
-",,,
-C,25.4,gruppo,fabbricazione di armi e munizioni,,"# fabbricazione di armi e munizioni
-
-
-",,,
-C,25.5,gruppo,"fucinatura, imbutitura, stampaggio e profilatura dei metalli; metallurgia delle polveri","Questo gruppo include le attività generali di lavorazione dei metalli, quali la fucinatura o lo stampaggio.","# fucinatura, imbutitura, stampaggio e profilatura dei metalli; metallurgia delle polveri
-
-Questo gruppo include le attività generali di lavorazione dei metalli, quali la fucinatura o lo stampaggio.
-",,,
-C,25.6,gruppo,trattamento e rivestimento dei metalli; lavori di meccanica generale,"Questo gruppo include le attività generali di lavorazione dei metalli, quali placcatura, rivestimento, incisione, alesatura, lucidatura, saldatura eccetera.","# trattamento e rivestimento dei metalli; lavori di meccanica generale
-
-Questo gruppo include le attività generali di lavorazione dei metalli, quali placcatura, rivestimento, incisione, alesatura, lucidatura, saldatura eccetera.
-",,,
-C,25.7,gruppo,"fabbricazione di articoli di coltelleria, utensili e oggetti di ferramenta","Questo gruppo include la fabbricazione di articoli di coltelleria, utensili metallici ed oggetti di uso generale.","# fabbricazione di articoli di coltelleria, utensili e oggetti di ferramenta
-
-Questo gruppo include la fabbricazione di articoli di coltelleria, utensili metallici ed oggetti di uso generale.
-",,,
-C,25.9,gruppo,fabbricazione di altri prodotti in metallo,"Questo gruppo include la fabbricazione di vari prodotti in metallo per uso domestico e per l'industria, quali lattine e bidoni; chiodi, viti e dadi; attrezzi di fissaggio; eliche ed ancore per navi; strutture assemblate per linee ferroviarie eccetera.","# fabbricazione di altri prodotti in metallo
-
-Questo gruppo include la fabbricazione di vari prodotti in metallo per uso domestico e per l'industria, quali lattine e bidoni; chiodi, viti e dadi; attrezzi di fissaggio; eliche ed ancore per navi; strutture assemblate per linee ferroviarie eccetera.
-",,,
-C,26.1,gruppo,fabbricazione di componenti elettronici e schede elettroniche,,"# fabbricazione di componenti elettronici e schede elettroniche
-
-
-",,,
-C,26.2,gruppo,fabbricazione di computer e unità periferiche,,"# fabbricazione di computer e unità periferiche
-
-
-",,,
-C,26.3,gruppo,fabbricazione di apparecchiature per le telecomunicazioni,,"# fabbricazione di apparecchiature per le telecomunicazioni
-
-
-",,,
-C,26.4,gruppo,fabbricazione di prodotti di elettronica di consumo audio e video,,"# fabbricazione di prodotti di elettronica di consumo audio e video
-
-
-",,,
-C,26.5,gruppo,"fabbricazione di strumenti e apparecchi di misurazione, prova e navigazione; orologi","Questo gruppo include la fabbricazione di strumenti di misurazione, prova e navigazione per scopi industriali o non, inclusi gli strumenti per la misurazione del tempo come orologi e simili.","# fabbricazione di strumenti e apparecchi di misurazione, prova e navigazione; orologi
-
-Questo gruppo include la fabbricazione di strumenti di misurazione, prova e navigazione per scopi industriali o non, inclusi gli strumenti per la misurazione del tempo come orologi e simili.
-",,,
-C,26.6,gruppo,"fabbricazione di strumenti per irradiazione, apparecchiature elettromedicali ed elettroterapeutiche",,"# fabbricazione di strumenti per irradiazione, apparecchiature elettromedicali ed elettroterapeutiche
-
-
-",,,
-C,26.7,gruppo,fabbricazione di strumenti ottici e attrezzature fotografiche,,"# fabbricazione di strumenti ottici e attrezzature fotografiche
-
-
-",,,
-C,26.8,gruppo,fabbricazione di supporti magnetici ed ottici,,"# fabbricazione di supporti magnetici ed ottici
-
-
-",,,
-C,27.1,gruppo,"fabbricazione di motori, generatori e trasformatori elettrici e di apparecchiature per la distribuzione e il controllo dell'elettricità","Questo gruppo comprende la fabbricazione di trasformatori di potenza, di distribuzione; motori, generatori, insiemi di generatori a motore elettrici.","# fabbricazione di motori, generatori e trasformatori elettrici e di apparecchiature per la distribuzione e il controllo dell'elettricità
-
-Questo gruppo comprende la fabbricazione di trasformatori di potenza, di distribuzione; motori, generatori, insiemi di generatori a motore elettrici.
-",,,
-C,27.2,gruppo,fabbricazione di batterie di pile ed accumulatori elettrici,,"# fabbricazione di batterie di pile ed accumulatori elettrici
-
-
-",,,
-C,27.3,gruppo,fabbricazione di cablaggi e apparecchiature di cablaggio,"Questo gruppo include la fabbricazione di apparati di cablaggio per il trasporto di corrente elettrica o altro, utilizzati per i circuiti elettrici indipendentemente dal materiale impiegato. Questo gruppo include anche l'isolamento di fili elettrici e la fabbricazione di cavi a fibra ottica.","# fabbricazione di cablaggi e apparecchiature di cablaggio
-
-Questo gruppo include la fabbricazione di apparati di cablaggio per il trasporto di corrente elettrica o altro, utilizzati per i circuiti elettrici indipendentemente dal materiale impiegato. Questo gruppo include anche l'isolamento di fili elettrici e la fabbricazione di cavi a fibra ottica.
-",,,
-C,27.4,gruppo,fabbricazione di apparecchiature per illuminazione,,"# fabbricazione di apparecchiature per illuminazione
-
-
-",,,
-C,27.5,gruppo,fabbricazione di apparecchi per uso domestico,"Questo gruppo include la fabbricazione di piccoli elettrodomestici, ventilatori d'aria per uso domestico, aspirapolveri, lucidatrici elettriche, apparecchi per cucinare, lavatrici, frigoriferi, congelatori a colonna e a pozzetto ed altri apparecchi elettrici o non elettrici per uso domestico, quali lavastoviglie, scaldacqua, tritarifiuti","# fabbricazione di apparecchi per uso domestico
-
-Questo gruppo include la fabbricazione di piccoli elettrodomestici, ventilatori d'aria per uso domestico, aspirapolveri, lucidatrici elettriche, apparecchi per cucinare, lavatrici, frigoriferi, congelatori a colonna e a pozzetto ed altri apparecchi elettrici o non elettrici per uso domestico, quali lavastoviglie, scaldacqua, tritarifiuti
-",,,
-C,27.9,gruppo,fabbricazione di altre apparecchiature elettriche,,"# fabbricazione di altre apparecchiature elettriche
-
-
-",,,
-C,28.1,gruppo,fabbricazione di macchine di impiego generale,,"# fabbricazione di macchine di impiego generale
-
-
-",,,
-C,28.2,gruppo,fabbricazione di altre macchine di impiego generale,,"# fabbricazione di altre macchine di impiego generale
-
-
-",,,
-C,28.3,gruppo,fabbricazione di macchine per l'agricoltura e la silvicoltura,,"# fabbricazione di macchine per l'agricoltura e la silvicoltura
-
-
-",,,
-C,28.4,gruppo,fabbricazione di macchine per la formatura dei metalli e di altre macchine utensili,"Questo gruppo include la fabbricazione di macchine per la formatura dei metalli e di macchine utensili, per esempio macchine utensili per la lavorazione dei metalli e di altri materiali (legno, osso, pietra, gomma indurita, plastiche dure, vetro lavorato a freddo) incluse quelle che utilizzano raggi laser, onde ad ultrasuoni, arco a plasma, impulsi magnetici eccetera.","# fabbricazione di macchine per la formatura dei metalli e di altre macchine utensili
-
-Questo gruppo include la fabbricazione di macchine per la formatura dei metalli e di macchine utensili, per esempio macchine utensili per la lavorazione dei metalli e di altri materiali (legno, osso, pietra, gomma indurita, plastiche dure, vetro lavorato a freddo) incluse quelle che utilizzano raggi laser, onde ad ultrasuoni, arco a plasma, impulsi magnetici eccetera.
-",,,
-C,28.9,gruppo,fabbricazione di altre macchine per impieghi speciali,"Questo gruppo include la fabbricazione di macchine per impieghi speciali, ossia macchine utilizzate esclusivamente in una specifica attività economica. Questo gruppo include anche la fabbricazione di macchinari specifici per altre industrie non manifatturiere, come le catapulte per il lancio di aerei imbarcati o le attrezzature per i parchi di divertimento.","# fabbricazione di altre macchine per impieghi speciali
-
-Questo gruppo include la fabbricazione di macchine per impieghi speciali, ossia macchine utilizzate esclusivamente in una specifica attività economica. Questo gruppo include anche la fabbricazione di macchinari specifici per altre industrie non manifatturiere, come le catapulte per il lancio di aerei imbarcati o le attrezzature per i parchi di divertimento.
-",,,
-C,29.1,gruppo,fabbricazione di autoveicoli,,"# fabbricazione di autoveicoli
-
-
-",,,
-C,29.2,gruppo,"fabbricazione di carrozzerie per autoveicoli, rimorchi e semirimorchi",,"# fabbricazione di carrozzerie per autoveicoli, rimorchi e semirimorchi
-
-
-",,,
-C,29.3,gruppo,fabbricazione di parti ed accessori per autoveicoli e loro motori,,"# fabbricazione di parti ed accessori per autoveicoli e loro motori
-
-
-",,,
-C,30.1,gruppo,costruzione di navi e imbarcazioni,"Questo gruppo include la costruzione di navi, imbarcazioni ed altre strutture galleggianti per il trasporto e per altri scopi commerciali, nonché per diporto o attività sportive.","# costruzione di navi e imbarcazioni
-
-Questo gruppo include la costruzione di navi, imbarcazioni ed altre strutture galleggianti per il trasporto e per altri scopi commerciali, nonché per diporto o attività sportive.
-",,,
-C,30.2,gruppo,costruzione di locomotive e di materiale rotabile ferro-tranviario,,"# costruzione di locomotive e di materiale rotabile ferro-tranviario
-
-
-",,,
-C,30.3,gruppo,"fabbricazione di aeromobili, di veicoli spaziali e dei relativi dispositivi",,"# fabbricazione di aeromobili, di veicoli spaziali e dei relativi dispositivi
-
-
-",,,
-C,30.4,gruppo,fabbricazione di veicoli militari da combattimento,,"# fabbricazione di veicoli militari da combattimento
-
-
-",,,
-C,30.9,gruppo,fabbricazione di mezzi di trasporto n.c.a.,"Questo gruppo include la fabbricazione di mezzi di trasporto per uso civile e militare diversi da autoveicoli o mezzi ferroviari, imbarcazioni, attrezzatura per il trasporto aereo o spaziale e veicoli militari.","# fabbricazione di mezzi di trasporto n.c.a.
-
-Questo gruppo include la fabbricazione di mezzi di trasporto per uso civile e militare diversi da autoveicoli o mezzi ferroviari, imbarcazioni, attrezzatura per il trasporto aereo o spaziale e veicoli militari.
-",,,
-C,31.0,gruppo,fabbricazione di mobili,,"# fabbricazione di mobili
-
-
-",,,
-C,32.1,gruppo,"fabbricazione di gioielleria, bigiotteria e articoli connessi; lavorazione delle pietre preziose",Questo gruppo include la fabbricazione di gioielleria e articoli di imitazione di gioielleria.,"# fabbricazione di gioielleria, bigiotteria e articoli connessi; lavorazione delle pietre preziose
-
-Questo gruppo include la fabbricazione di gioielleria e articoli di imitazione di gioielleria.
-",,,
-C,32.2,gruppo,fabbricazione di strumenti musicali,,"# fabbricazione di strumenti musicali
-
-
-",,,
-C,32.3,gruppo,fabbricazione di articoli sportivi,,"# fabbricazione di articoli sportivi
-
-
-",,,
-C,32.4,gruppo,fabbricazione di giochi e giocattoli,,"# fabbricazione di giochi e giocattoli
-
-
-",,,
-C,32.5,gruppo,fabbricazione di strumenti e forniture mediche e dentistiche,,"# fabbricazione di strumenti e forniture mediche e dentistiche
-
-
-",,,
-C,32.9,gruppo,industrie manifatturiere n.c.a.,,"# industrie manifatturiere n.c.a.
-
-
-",,,
-C,33.1,gruppo,"riparazione e manutenzione di prodotti in metallo, macchine ed apparecchiature","Questo gruppo include la riparazione e la manutenzione da parte di unità specializzate di beni prodotti dal settore manifatturiero, con l'obiettivo di ripristinare le funzionalità di macchine, apparecchiature ed altri prodotti. Il gruppo include l'erogazione di servizi di manutenzione generale o ordinaria (inclusi i servizi di assistenza) destinata a tali prodotti, mirata a garantirne l'efficienza lavorativa e a prevenirne i guasti o le riparazioni non necessarie. Sono escluse le seguenti attività: - ricostruzione o rifabbricazione di macchine ed apparecchiature, cfr. classe corrispondente nelle divisioni 25-30 - pulizia di macchine industriali, cfr. 81.22 - riparazione e manutenzione di computer ed apparecchiature per le comunicazioni, cfr. 95.1 - riparazione e manutenzione di beni per uso personale e per la casa, cfr. 95.2","# riparazione e manutenzione di prodotti in metallo, macchine ed apparecchiature
-
-Questo gruppo include la riparazione e la manutenzione da parte di unità specializzate di beni prodotti dal settore manifatturiero, con l'obiettivo di ripristinare le funzionalità di macchine, apparecchiature ed altri prodotti. Il gruppo include l'erogazione di servizi di manutenzione generale o ordinaria (inclusi i servizi di assistenza) destinata a tali prodotti, mirata a garantirne l'efficienza lavorativa e a prevenirne i guasti o le riparazioni non necessarie. Sono escluse le seguenti attività: - ricostruzione o rifabbricazione di macchine ed apparecchiature, cfr. classe corrispondente nelle divisioni 25-30 - pulizia di macchine industriali, cfr. 81.22 - riparazione e manutenzione di computer ed apparecchiature per le comunicazioni, cfr. 95.1 - riparazione e manutenzione di beni per uso personale e per la casa, cfr. 95.2
-
-Questa sezione ATECO non comprende le seguenti attività:
-
-- ricostruzione o rifabbricazione di macchine ed apparecchiature, cfr. classe corrispondente nelle divisioni 25-30 - pulizia di macchine industriali, cfr. 81.22 - riparazione e manutenzione di computer ed apparecchiature per le comunicazioni, cfr. 95.1 - riparazione e manutenzione di beni per uso personale e per la casa, cfr. 95.2, 
-","- ricostruzione o rifabbricazione di macchine ed apparecchiature, cfr. classe corrispondente nelle divisioni 25-30 - pulizia di macchine industriali, cfr. 81.22 - riparazione e manutenzione di computer ed apparecchiature per le comunicazioni, cfr. 95.1 - riparazione e manutenzione di beni per uso personale e per la casa, cfr. 95.2",,
-C,33.2,gruppo,installazione di macchine ed apparecchiature industriali,,"# installazione di macchine ed apparecchiature industriali
-
-
-",,,
-D,35.1,gruppo,"produzione, trasmissione e distribuzione di energia elettrica","Questo gruppo include la produzione di energia elettrica, nonché la trasmissione dalle centrali di produzione ai centri di distribuzione e la distribuzione agli utenti finali.","# produzione, trasmissione e distribuzione di energia elettrica
-
-Questo gruppo include la produzione di energia elettrica, nonché la trasmissione dalle centrali di produzione ai centri di distribuzione e la distribuzione agli utenti finali.
-",,,
-D,35.2,gruppo,produzione di gas; distribuzione di combustibili gassosi mediante condotte,"Questo gruppo include la produzione di gas e la distribuzione di gas naturale o sintetico agli utenti finali mediante un sistema di condotte. Sono inclusi in questo gruppo gli agenti o gli intermediari che organizzano la vendita di gas naturale all'interno di sistemi di distribuzione gestiti da terzi. Dal gruppo è esclusa la gestione separata di gasdotti, che coprono generalmente lunghe distanze e che collegano le aziende produttrici ai distributori di gas o ai centri urbani ed è classificata insieme ad altre attività di trasporto realizzate mediante condotte o tubazioni (cfr. 49.50).","# produzione di gas; distribuzione di combustibili gassosi mediante condotte
-
-Questo gruppo include la produzione di gas e la distribuzione di gas naturale o sintetico agli utenti finali mediante un sistema di condotte. Sono inclusi in questo gruppo gli agenti o gli intermediari che organizzano la vendita di gas naturale all'interno di sistemi di distribuzione gestiti da terzi. Dal gruppo è esclusa la gestione separata di gasdotti, che coprono generalmente lunghe distanze e che collegano le aziende produttrici ai distributori di gas o ai centri urbani ed è classificata insieme ad altre attività di trasporto realizzate mediante condotte o tubazioni (cfr. 49.50).
-",,,
-D,35.3,gruppo,fornitura di vapore e aria condizionata,,"# fornitura di vapore e aria condizionata
-
-
-",,,
-E,36.0,gruppo,"raccolta, trattamento e fornitura di acqua",,"# raccolta, trattamento e fornitura di acqua
-
-
-",,,
-E,37.0,gruppo,gestione delle reti fognarie,,"# gestione delle reti fognarie
-
-
-",,,
-E,38.1,gruppo,raccolta dei rifiuti,"Questo gruppo include la raccolta di rifiuti provenienti da famiglie e aziende tramite bidoni per la spazzatura, bidoni su ruote, container eccetera. È inclusa la raccolta di rifiuti pericolosi e non pericolosi, ad esempio rifiuti domestici, batterie usate, oli e grassi per cucina usati, oli di scarto provenienti dalle navi e oli esausti provenienti da autofficine, nonché rifiuti da costruzione e demolizione.","# raccolta dei rifiuti
-
-Questo gruppo include la raccolta di rifiuti provenienti da famiglie e aziende tramite bidoni per la spazzatura, bidoni su ruote, container eccetera. È inclusa la raccolta di rifiuti pericolosi e non pericolosi, ad esempio rifiuti domestici, batterie usate, oli e grassi per cucina usati, oli di scarto provenienti dalle navi e oli esausti provenienti da autofficine, nonché rifiuti da costruzione e demolizione.
-",,,
-E,38.2,gruppo,trattamento e smaltimento dei rifiuti,"Questo gruppo include lo smaltimento e il trattamento che precede lo smaltimento di varie forme di rifiuti tramite differenti modalità, come il trattamento di rifiuti organici a scopo di smaltimento; il trattamento e lo smaltimento di animali infettivi, vivi o morti, e di altri rifiuti contaminati; il trattamento e lo smaltimento di residui radioattivi di transizione provenienti da ospedali eccetera; il conferimento a discariche o in acqua; l'interramento dei rifiuti; lo smaltimento di beni usati quali frigoriferi, per smaltire i rifiuti tossici; lo smaltimento dei rifiuti tramite incenerimento o combustione. Sono escluse le seguenti attività: - trattamento e smaltimento delle acque reflue, cfr. 37.00 - recupero dei materiali, cfr. 38.3","# trattamento e smaltimento dei rifiuti
-
-Questo gruppo include lo smaltimento e il trattamento che precede lo smaltimento di varie forme di rifiuti tramite differenti modalità, come il trattamento di rifiuti organici a scopo di smaltimento; il trattamento e lo smaltimento di animali infettivi, vivi o morti, e di altri rifiuti contaminati; il trattamento e lo smaltimento di residui radioattivi di transizione provenienti da ospedali eccetera; il conferimento a discariche o in acqua; l'interramento dei rifiuti; lo smaltimento di beni usati quali frigoriferi, per smaltire i rifiuti tossici; lo smaltimento dei rifiuti tramite incenerimento o combustione. Sono escluse le seguenti attività: - trattamento e smaltimento delle acque reflue, cfr. 37.00 - recupero dei materiali, cfr. 38.3
-
-Questa sezione ATECO non comprende le seguenti attività:
-
-- trattamento e smaltimento delle acque reflue, cfr. 37.00 - recupero dei materiali, cfr. 38.3, 
-","- trattamento e smaltimento delle acque reflue, cfr. 37.00 - recupero dei materiali, cfr. 38.3",,
-E,38.3,gruppo,recupero dei materiali,"Da questo gruppo è esclusa la fabbricazione di nuovi prodotti finiti (fabbricati o meno in proprio) a partire da materie prime secondarie, come ad esempio la fabbricazione di filati provenienti da garnettatura, fabbricazione della pasta-carta proveniente da rifiuti di carta, rigenerazione di pneumatici o produzione di metalli provenienti da rifiuti metallici, cfr. classi corrispondenti nella sezione C (Attività manifatturiere).","# recupero dei materiali
-
-Da questo gruppo è esclusa la fabbricazione di nuovi prodotti finiti (fabbricati o meno in proprio) a partire da materie prime secondarie, come ad esempio la fabbricazione di filati provenienti da garnettatura, fabbricazione della pasta-carta proveniente da rifiuti di carta, rigenerazione di pneumatici o produzione di metalli provenienti da rifiuti metallici, cfr. classi corrispondenti nella sezione C (Attività manifatturiere).
-",,,
-E,39.0,gruppo,attività di risanamento e altri servizi di gestione dei rifiuti,,"# attività di risanamento e altri servizi di gestione dei rifiuti
-
-
-",,,
-F,41.1,gruppo,sviluppo di progetti immobiliari,,"# sviluppo di progetti immobiliari
-
-
-",,,
-F,41.2,gruppo,costruzione di edifici residenziali e non residenziali,"Questo gruppo include la costruzione completa di edifici residenziali o non residenziali eseguiti per conto proprio o per conto terzi e poi venduti. La realizzazione della costruzione, in parte o nella sua totalità può essere data in affidamento all'esterno (outsourcing). È incluso lo sviluppo di progetti immobiliari con costruzione. Se si effettuano solo parti specifiche del processo di costruzione, l'attività è classificata nella divisione 43.","# costruzione di edifici residenziali e non residenziali
-
-Questo gruppo include la costruzione completa di edifici residenziali o non residenziali eseguiti per conto proprio o per conto terzi e poi venduti. La realizzazione della costruzione, in parte o nella sua totalità può essere data in affidamento all'esterno (outsourcing). È incluso lo sviluppo di progetti immobiliari con costruzione. Se si effettuano solo parti specifiche del processo di costruzione, l'attività è classificata nella divisione 43.
-",,,
-F,42.1,gruppo,costruzione di strade e ferrovie,,"# costruzione di strade e ferrovie
-
-
-",,,
-F,42.2,gruppo,costruzione di opere di pubblica utilità,,"# costruzione di opere di pubblica utilità
-
-
-",,,
-F,42.9,gruppo,costruzione di altre opere di ingegneria civile,,"# costruzione di altre opere di ingegneria civile
-
-
-",,,
-F,43.1,gruppo,demolizione e preparazione del cantiere edile,"Questo gruppo include le attività di preparazione di un cantiere edile per i successivi lavori di costruzione, inclusa la rimozione di strutture preesistenti.","# demolizione e preparazione del cantiere edile
-
-Questo gruppo include le attività di preparazione di un cantiere edile per i successivi lavori di costruzione, inclusa la rimozione di strutture preesistenti.
-",,,
-F,43.2,gruppo,"installazione di impianti elettrici, idraulici ed altri lavori di costruzione e installazione","Questo gruppo include le attività di installazione di servizi che supportano il funzionamento di un edificio inclusa l'installazione di impianti elettrici, idraulici (acqua, gas e sistemi di fognatura), impianti di riscaldamento e condizionamento dell'aria, ascensori eccetera.","# installazione di impianti elettrici, idraulici ed altri lavori di costruzione e installazione
-
-Questo gruppo include le attività di installazione di servizi che supportano il funzionamento di un edificio inclusa l'installazione di impianti elettrici, idraulici (acqua, gas e sistemi di fognatura), impianti di riscaldamento e condizionamento dell'aria, ascensori eccetera.
-",,,
-F,43.3,gruppo,completamento e finitura di edifici,,"# completamento e finitura di edifici
-
-
-",,,
-F,43.9,gruppo,altri lavori specializzati di costruzione,,"# altri lavori specializzati di costruzione
-
-
-",,,
-G,45.1,gruppo,commercio di autoveicoli,,"# commercio di autoveicoli
-
-
-",,,
-G,45.2,gruppo,manutenzione e riparazione di autoveicoli,,"# manutenzione e riparazione di autoveicoli
-
-
-",,,
-G,45.3,gruppo,commercio di parti e accessori di autoveicoli,"Questo gruppo include: commercio all'ingrosso e al dettaglio di tutti i tipi di parti, componenti, forniture, strumenti ed accessori per autoveicoli, quali: copertoni in gomma e camere d'aria per pneumatici, candele, batterie, impianti di illuminazione e parti elettriche. È incluso anche il commercio per corrispondenza e via internet.","# commercio di parti e accessori di autoveicoli
-
-Questo gruppo include: commercio all'ingrosso e al dettaglio di tutti i tipi di parti, componenti, forniture, strumenti ed accessori per autoveicoli, quali: copertoni in gomma e camere d'aria per pneumatici, candele, batterie, impianti di illuminazione e parti elettriche. È incluso anche il commercio per corrispondenza e via internet.
-",,,
-G,45.4,gruppo,"commercio, manutenzione e riparazione di motocicli e relative parti ed accessori",,"# commercio, manutenzione e riparazione di motocicli e relative parti ed accessori
-
-
-",,,
-G,46.1,gruppo,intermediari del commercio,"Questo gruppo include: - attività di operatori di borsa merci, commercianti che effettuano operazioni commerciali a nome e per conto di terzi - attività dei rappresentanti del commercio e intermediari che effettuano transazioni commerciali a nome di un mandante, anche via internet Sono escluse le seguenti attività: - commercio all'ingrosso per proprio conto, cfr. da 46.2 a 46.9 - commercio al dettaglio effettuato per mezzo di agenti al di fuori di negozi, cfr. 47.99 - attività degli agenti di assicurazione, cfr. 66.22 - attività degli agenti immobiliari, cfr. 68.31","# intermediari del commercio
-
-Questo gruppo include: - attività di operatori di borsa merci, commercianti che effettuano operazioni commerciali a nome e per conto di terzi - attività dei rappresentanti del commercio e intermediari che effettuano transazioni commerciali a nome di un mandante, anche via internet Sono escluse le seguenti attività: - commercio all'ingrosso per proprio conto, cfr. da 46.2 a 46.9 - commercio al dettaglio effettuato per mezzo di agenti al di fuori di negozi, cfr. 47.99 - attività degli agenti di assicurazione, cfr. 66.22 - attività degli agenti immobiliari, cfr. 68.31
-
-Questa sezione ATECO non comprende le seguenti attività:
-
-- commercio all'ingrosso per proprio conto, cfr. da 46.2 a 46.9 - commercio al dettaglio effettuato per mezzo di agenti al di fuori di negozi, cfr. 47.99 - attività degli agenti di assicurazione, cfr. 66.22 - attività degli agenti immobiliari, cfr. 68.31, 
-","- commercio all'ingrosso per proprio conto, cfr. da 46.2 a 46.9 - commercio al dettaglio effettuato per mezzo di agenti al di fuori di negozi, cfr. 47.99 - attività degli agenti di assicurazione, cfr. 66.22 - attività degli agenti immobiliari, cfr. 68.31",,
-G,46.2,gruppo,commercio all'ingrosso di materie prime agricole e di animali vivi,,"# commercio all'ingrosso di materie prime agricole e di animali vivi
-
-
-",,,
-G,46.3,gruppo,"commercio all'ingrosso di prodotti alimentari, bevande e prodotti del tabacco",,"# commercio all'ingrosso di prodotti alimentari, bevande e prodotti del tabacco
-
-
-",,,
-G,46.4,gruppo,commercio all'ingrosso di beni di consumo finale,"Questo gruppo include il commercio all'ingrosso di beni di consumo finale, inclusi i prodotti tessili.","# commercio all'ingrosso di beni di consumo finale
-
-Questo gruppo include il commercio all'ingrosso di beni di consumo finale, inclusi i prodotti tessili.
-",,,
-G,46.5,gruppo,commercio all'ingrosso di apparecchiature ict,"Questo gruppo include il commercio all'ingrosso di apparecchiature per l'informazione e comunicazione tecnologica (ICT) come computer, attrezzature per telecomunicazioni compreso parti e accessori.","# commercio all'ingrosso di apparecchiature ict
-
-Questo gruppo include il commercio all'ingrosso di apparecchiature per l'informazione e comunicazione tecnologica (ICT) come computer, attrezzature per telecomunicazioni compreso parti e accessori.
-",,,
-G,46.6,gruppo,"commercio all'ingrosso di altri macchinari, attrezzature e forniture","Questo gruppo include il commercio all'ingrosso di macchinari, attrezzature e forniture per tutti i tipi di industrie e di macchinari di impiego generale.","# commercio all'ingrosso di altri macchinari, attrezzature e forniture
-
-Questo gruppo include il commercio all'ingrosso di macchinari, attrezzature e forniture per tutti i tipi di industrie e di macchinari di impiego generale.
-",,,
-G,46.7,gruppo,commercio all'ingrosso specializzato di altri prodotti,"Questo gruppo include altre attività di commercio all'ingrosso specializzato non classificate in altri gruppi di questa divisione. È incluso anche il commercio all'ingrosso di prodotti intermedi, esclusi quelli agricoli, generalmente non destinati all'impiego domestico.","# commercio all'ingrosso specializzato di altri prodotti
-
-Questo gruppo include altre attività di commercio all'ingrosso specializzato non classificate in altri gruppi di questa divisione. È incluso anche il commercio all'ingrosso di prodotti intermedi, esclusi quelli agricoli, generalmente non destinati all'impiego domestico.
-",,,
-G,46.9,gruppo,commercio all'ingrosso non specializzato,,"# commercio all'ingrosso non specializzato
-
-
-",,,
-G,47.1,gruppo,commercio al dettaglio in esercizi non specializzati,"Questo gruppo include la vendita al dettaglio di diverse tipologie di prodotti presenti all'interno di uno stesso esercizio (non specializzato), come supermercati o grandi magazzini.","# commercio al dettaglio in esercizi non specializzati
-
-Questo gruppo include la vendita al dettaglio di diverse tipologie di prodotti presenti all'interno di uno stesso esercizio (non specializzato), come supermercati o grandi magazzini.
-",,,
-G,47.2,gruppo,"commercio al dettaglio di prodotti alimentari, bevande e tabacco in esercizi specializzati",,"# commercio al dettaglio di prodotti alimentari, bevande e tabacco in esercizi specializzati
-
-
-",,,
-G,47.3,gruppo,commercio al dettaglio di carburante per autotrazione in esercizi specializzati,,"# commercio al dettaglio di carburante per autotrazione in esercizi specializzati
-
-
-",,,
-G,47.4,gruppo,commercio al dettaglio di apparecchiature informatiche e per le telecomunicazioni (ict) in esercizi specializzati,"Questo gruppo include la vendita al dettaglio in esercizi specializzati di apparecchiature informatiche e per telecomunicazioni (ICT), quali computer, periferiche, attrezzature per le telecomunicazioni ed elettronica di consumo audio e video.","# commercio al dettaglio di apparecchiature informatiche e per le telecomunicazioni (ict) in esercizi specializzati
-
-Questo gruppo include la vendita al dettaglio in esercizi specializzati di apparecchiature informatiche e per telecomunicazioni (ICT), quali computer, periferiche, attrezzature per le telecomunicazioni ed elettronica di consumo audio e video.
-",,,
-G,47.5,gruppo,commercio al dettaglio di altri prodotti per uso domestico in esercizi specializzati,"Questo gruppo include la vendita al dettaglio in esercizi specializzati di articoli per la casa, quali tessili, ferramenta, tappeti, forniture elettriche o mobili.","# commercio al dettaglio di altri prodotti per uso domestico in esercizi specializzati
-
-Questo gruppo include la vendita al dettaglio in esercizi specializzati di articoli per la casa, quali tessili, ferramenta, tappeti, forniture elettriche o mobili.
-",,,
-G,47.6,gruppo,commercio al dettaglio di articoli culturali e ricreativi in esercizi specializzati,"Questo gruppo include la vendita al dettaglio in esercizi specializzati di articoli culturali e ricreativi, quali libri, giornali, registrazioni musicali e video, articoli sportivi, giochi e giocattoli.","# commercio al dettaglio di articoli culturali e ricreativi in esercizi specializzati
-
-Questo gruppo include la vendita al dettaglio in esercizi specializzati di articoli culturali e ricreativi, quali libri, giornali, registrazioni musicali e video, articoli sportivi, giochi e giocattoli.
-",,,
-G,47.7,gruppo,commercio al dettaglio di altri prodotti in esercizi specializzati,"Questo gruppo include la vendita in esercizi specializzati che offrono una particolare linea di prodotti non compresi in altre parti di questa classificazione, quali articoli di abbigliamento, calzature ed articoli in pelle, prodotti farmaceutici e medicali, orologi, souvenir, materiali per la pulizia, armi, fiori, animali da compagnia e altro. È compresa anche la vendita al dettaglio di articoli di seconda mano in esercizi specializzati.","# commercio al dettaglio di altri prodotti in esercizi specializzati
-
-Questo gruppo include la vendita in esercizi specializzati che offrono una particolare linea di prodotti non compresi in altre parti di questa classificazione, quali articoli di abbigliamento, calzature ed articoli in pelle, prodotti farmaceutici e medicali, orologi, souvenir, materiali per la pulizia, armi, fiori, animali da compagnia e altro. È compresa anche la vendita al dettaglio di articoli di seconda mano in esercizi specializzati.
-",,,
-G,47.8,gruppo,commercio al dettaglio ambulante,"Commercio al dettaglio di articoli nuovi o usati in banchi, di solito smontabili, collocati su una strada pubblica oppure in un posto fisso all'interno di un mercato","# commercio al dettaglio ambulante
-
-Commercio al dettaglio di articoli nuovi o usati in banchi, di solito smontabili, collocati su una strada pubblica oppure in un posto fisso all'interno di un mercato
-",,,
-G,47.9,gruppo,"commercio al dettaglio al di fuori di negozi, banchi e mercati","Questo gruppo include le attività di vendita al dettaglio tramite corrispondenza, via internet, vendita porta a porta, distributori automatici eccetera.","# commercio al dettaglio al di fuori di negozi, banchi e mercati
-
-Questo gruppo include le attività di vendita al dettaglio tramite corrispondenza, via internet, vendita porta a porta, distributori automatici eccetera.
-",,,
-H,49.1,gruppo,trasporto ferroviario di passeggeri (interurbano),,"# trasporto ferroviario di passeggeri (interurbano)
-
-
-",,,
-H,49.2,gruppo,trasporto ferroviario di merci,,"# trasporto ferroviario di merci
-
-
-",,,
-H,49.3,gruppo,altri trasporti terrestri di passeggeri,Questo gruppo include tutte le attività di trasporto terrestre di passeggeri (esclusi i trasporti ferroviari). Tuttavia in questo gruppo è incluso il trasporto su rotaia effettuato come parte del sistema di trasporto urbano o suburbano.,"# altri trasporti terrestri di passeggeri
-
-Questo gruppo include tutte le attività di trasporto terrestre di passeggeri (esclusi i trasporti ferroviari). Tuttavia in questo gruppo è incluso il trasporto su rotaia effettuato come parte del sistema di trasporto urbano o suburbano.
-
-Questa sezione ATECO non comprende le seguenti attività:
-
-, esclusi i trasporti ferroviari
-",,esclusi i trasporti ferroviari,
-H,49.4,gruppo,trasporto di merci su strada e servizi di trasloco,Questo gruppo include tutti i tipi di trasporto terrestre di merci (esclusi i trasporti ferroviari).,"# trasporto di merci su strada e servizi di trasloco
-
-Questo gruppo include tutti i tipi di trasporto terrestre di merci (esclusi i trasporti ferroviari).
-
-Questa sezione ATECO non comprende le seguenti attività:
-
-, esclusi i trasporti ferroviari
-",,esclusi i trasporti ferroviari,
-H,49.5,gruppo,trasporto mediante condotte,,"# trasporto mediante condotte
-
-
-",,,
-H,50.1,gruppo,trasporto marittimo e costiero di passeggeri,Questo gruppo include il trasporto di passeggeri effettuato su natanti progettati per navigare in mare aperto o in acque costiere.,"# trasporto marittimo e costiero di passeggeri
-
-Questo gruppo include il trasporto di passeggeri effettuato su natanti progettati per navigare in mare aperto o in acque costiere.
-",,,
-H,50.2,gruppo,trasporto marittimo e costiero di merci,Questo gruppo include il trasporto di merci su natanti progettati per navigare in mare aperto e in acque costiere.,"# trasporto marittimo e costiero di merci
-
-Questo gruppo include il trasporto di merci su natanti progettati per navigare in mare aperto e in acque costiere.
-",,,
-H,50.3,gruppo,trasporto di passeggeri per vie d'acqua interne,,"# trasporto di passeggeri per vie d'acqua interne
-
-
-",,,
-H,50.4,gruppo,trasporto di merci per vie d'acqua interne,,"# trasporto di merci per vie d'acqua interne
-
-
-",,,
-H,51.1,gruppo,trasporto aereo di passeggeri,,"# trasporto aereo di passeggeri
-
-
-",,,
-H,51.2,gruppo,trasporto aereo di merci e trasporto spaziale,,"# trasporto aereo di merci e trasporto spaziale
-
-
-",,,
-H,52.1,gruppo,magazzinaggio e custodia,,"# magazzinaggio e custodia
-
-
-",,,
-H,52.2,gruppo,attività di supporto ai trasporti,"Questo gruppo include le attività di supporto al trasporto di passeggeri o merci, quali la gestione di parti delle infrastrutture o delle attività legate alla movimentazione delle merci, effettuate immediatamente prima o dopo un'operazione di trasporto, o durante le successive tappe del trasporto. È inclusa l'attività delle biglietterie diverse dalle agenzie di viaggio. È escluso il servizio di radiocontrollo satellitare dei mezzi di trasporto, cfr. 80.20","# attività di supporto ai trasporti
-
-Questo gruppo include le attività di supporto al trasporto di passeggeri o merci, quali la gestione di parti delle infrastrutture o delle attività legate alla movimentazione delle merci, effettuate immediatamente prima o dopo un'operazione di trasporto, o durante le successive tappe del trasporto. È inclusa l'attività delle biglietterie diverse dalle agenzie di viaggio. È escluso il servizio di radiocontrollo satellitare dei mezzi di trasporto, cfr. 80.20
-",,,
-H,53.1,gruppo,attività postali con obbligo di servizio universale,,"# attività postali con obbligo di servizio universale
-
-
-",,,
-H,53.2,gruppo,altre attività postali e di corriere,,"# altre attività postali e di corriere
-
-
-",,,
-I,55.1,gruppo,alberghi e strutture simili,,"# alberghi e strutture simili
-
-
-",,,
-I,55.2,gruppo,alloggi per vacanze e altre strutture per brevi soggiorni,,"# alloggi per vacanze e altre strutture per brevi soggiorni
-
-
-",,,
-I,55.3,gruppo,aree di campeggio e aree attrezzate per camper e roulotte,,"# aree di campeggio e aree attrezzate per camper e roulotte
-
-
-",,,
-I,55.9,gruppo,altri alloggi,,"# altri alloggi
-
-
-",,,
-I,56.1,gruppo,ristoranti e attività di ristorazione mobile,,"# ristoranti e attività di ristorazione mobile
-
-
-",,,
-I,56.2,gruppo,fornitura di pasti preparati (catering) e altri servizi di ristorazione,"Questo gruppo include la fornitura di pasti preparati (catering) per eventi individuali o per un determinato periodo di tempo, nonché la gestione di esercizi di ristorazione in concessione.","# fornitura di pasti preparati (catering) e altri servizi di ristorazione
-
-Questo gruppo include la fornitura di pasti preparati (catering) per eventi individuali o per un determinato periodo di tempo, nonché la gestione di esercizi di ristorazione in concessione.
-",,,
-I,56.3,gruppo,bar e altri esercizi simili senza cucina,,"# bar e altri esercizi simili senza cucina
-
-
-",,,
-J,58.1,gruppo,"edizione di libri, periodici ed altre attività editoriali","Questo gruppo include attività di edizione di libri, giornali, riviste ed altri periodici, elenchi e mailing list, nonché di fotografie, incisioni, cartoline postali, calendari, moduli, manifesti e riproduzioni di opere d'arte. Tali opere sono caratterizzate dalla creatività intellettuale richiesta per il loro sviluppo e sono generalmente protette dal copyright.","# edizione di libri, periodici ed altre attività editoriali
-
-Questo gruppo include attività di edizione di libri, giornali, riviste ed altri periodici, elenchi e mailing list, nonché di fotografie, incisioni, cartoline postali, calendari, moduli, manifesti e riproduzioni di opere d'arte. Tali opere sono caratterizzate dalla creatività intellettuale richiesta per il loro sviluppo e sono generalmente protette dal copyright.
-",,,
-J,58.2,gruppo,edizione di software,,"# edizione di software
-
-
-",,,
-J,59.1,gruppo,"attività di produzione, post-produzione e distribuzione cinematografica, di video e di programmi televisivi","Questo gruppo include la produzione di spettacoli cinematografici su pellicola, videocassetta o Dvd o altro supporto, inclusa la distribuzione digitale, per la proiezione diretta in sale cinematografiche o per la trasmissione in televisione; le attività di assistenza quali l'editing, il montaggio, il doppiaggio eccetera, la distribuzione ad altre industrie di pellicole cinematografiche (videocassette, Dvd eccetera) e di altre produzioni e la loro proiezione. È inclusa anche l'acquisto e la vendita dei diritti di distribuzione delle produzioni cinematografiche.","# attività di produzione, post-produzione e distribuzione cinematografica, di video e di programmi televisivi
-
-Questo gruppo include la produzione di spettacoli cinematografici su pellicola, videocassetta o Dvd o altro supporto, inclusa la distribuzione digitale, per la proiezione diretta in sale cinematografiche o per la trasmissione in televisione; le attività di assistenza quali l'editing, il montaggio, il doppiaggio eccetera, la distribuzione ad altre industrie di pellicole cinematografiche (videocassette, Dvd eccetera) e di altre produzioni e la loro proiezione. È inclusa anche l'acquisto e la vendita dei diritti di distribuzione delle produzioni cinematografiche.
-",,,
-J,59.2,gruppo,attività di registrazione sonora e di editoria musicale,,"# attività di registrazione sonora e di editoria musicale
-
-
-",,,
-J,60.1,gruppo,trasmissioni radiofoniche,,"# trasmissioni radiofoniche
-
-
-",,,
-J,60.2,gruppo,attività di programmazione e trasmissioni televisive,,"# attività di programmazione e trasmissioni televisive
-
-
-",,,
-J,61.1,gruppo,telecomunicazioni fisse,,"# telecomunicazioni fisse
-
-
-",,,
-J,61.2,gruppo,telecomunicazioni mobili,,"# telecomunicazioni mobili
-
-
-",,,
-J,61.3,gruppo,telecomunicazioni satellitari,,"# telecomunicazioni satellitari
-
-
-",,,
-J,61.9,gruppo,altre attività di telecomunicazione,,"# altre attività di telecomunicazione
-
-
-",,,
-J,62.0,gruppo,"produzione di software, consulenza informatica e attività connesse",,"# produzione di software, consulenza informatica e attività connesse
-
-
-",,,
-J,63.1,gruppo,"elaborazione dei dati, hosting e attività connesse; portali web","Questo gruppo include la fornitura di servizi di hosting, elaborazione dei dati e simili, nonché la gestione di motori di ricerca e altri portali internet.","# elaborazione dei dati, hosting e attività connesse; portali web
-
-Questo gruppo include la fornitura di servizi di hosting, elaborazione dei dati e simili, nonché la gestione di motori di ricerca e altri portali internet.
-",,,
-J,63.9,gruppo,altre attività dei servizi d'informazione,"Questo gruppo include le attività delle agenzie di stampa e tutte le altre attività dei servizi di informazione. Sono escluse le seguenti attività: - attività di biblioteche e archivi, cfr. 91.01","# altre attività dei servizi d'informazione
-
-Questo gruppo include le attività delle agenzie di stampa e tutte le altre attività dei servizi di informazione. Sono escluse le seguenti attività: - attività di biblioteche e archivi, cfr. 91.01
-
-Questa sezione ATECO non comprende le seguenti attività:
-
-- attività di biblioteche e archivi, cfr. 91.01, 
-","- attività di biblioteche e archivi, cfr. 91.01",,
-K,64.1,gruppo,intermediazione monetaria,"Questo gruppo include la raccolta di fondi nella forma di depositi a vista, cioè fondi a valore nominale certo, liberamente rimborsabili o trasferibili e, ad eccezione dell'attività della banca centrale, ottenuti da operatori non finanziari.","# intermediazione monetaria
-
-Questo gruppo include la raccolta di fondi nella forma di depositi a vista, cioè fondi a valore nominale certo, liberamente rimborsabili o trasferibili e, ad eccezione dell'attività della banca centrale, ottenuti da operatori non finanziari.
-",,,
-K,64.2,gruppo,attività delle società di partecipazione (holding),,"# attività delle società di partecipazione (holding)
-
-
-",,,
-K,64.3,gruppo,"società fiduciarie, fondi e altre società simili",,"# società fiduciarie, fondi e altre società simili
-
-
-",,,
-K,64.9,gruppo,altre attività di servizi finanziari (escluse le assicurazioni e i fondi pensione),"Questo gruppo include le intermediazioni finanziarie diverse da quelle condotte da istituzioni monetarie. Sono escluse le seguenti attività: - assicurazioni e fondi pensione, cfr. divisione 65","# altre attività di servizi finanziari (escluse le assicurazioni e i fondi pensione)
-
-Questo gruppo include le intermediazioni finanziarie diverse da quelle condotte da istituzioni monetarie. Sono escluse le seguenti attività: - assicurazioni e fondi pensione, cfr. divisione 65
-
-Questa sezione ATECO non comprende le seguenti attività:
-
-- assicurazioni e fondi pensione, cfr. divisione 65, 
-","- assicurazioni e fondi pensione, cfr. divisione 65",,
-K,65.1,gruppo,assicurazioni,"Questo gruppo comprende l'attività di assicurazione e riassicurazione sulla vita, con o senza caratteristiche di strumenti di capitalizzazione, e le assicurazioni diverse da quelle sulla vita.","# assicurazioni
-
-Questo gruppo comprende l'attività di assicurazione e riassicurazione sulla vita, con o senza caratteristiche di strumenti di capitalizzazione, e le assicurazioni diverse da quelle sulla vita.
-",,,
-K,65.2,gruppo,riassicurazioni,,"# riassicurazioni
-
-
-",,,
-K,65.3,gruppo,fondi pensione,,"# fondi pensione
-
-
-",,,
-K,66.1,gruppo,attività ausiliarie dei servizi finanziari (escluse le assicurazioni e i fondi pensione),"Questo gruppo comprende l'attività delle unità che forniscono la disponibilità di mercati fisici o telematici allo scopo di facilitare l'acquisto e la vendita di azioni, stock options, titoli obbligazionari o contratti su merci.","# attività ausiliarie dei servizi finanziari (escluse le assicurazioni e i fondi pensione)
-
-Questo gruppo comprende l'attività delle unità che forniscono la disponibilità di mercati fisici o telematici allo scopo di facilitare l'acquisto e la vendita di azioni, stock options, titoli obbligazionari o contratti su merci.
-",,,
-K,66.2,gruppo,attività ausiliarie delle assicurazioni e dei fondi pensione,"Questo gruppo include le attività di coloro che agiscono in qualità di agenti (ovvero mediatori) nella vendita di rendite vitalizie e polizze assicurative o nell'erogazione di altri benefici o servizi relativi alle assicurazioni e ai fondi pensione, come la liquidazione degli indennizzi e l'attività di gestione delle polizze assicurative di una impresa o di un gruppo di imprese da parte di soggetti diversi dalla società di assicurazione e dall'assicurato.","# attività ausiliarie delle assicurazioni e dei fondi pensione
-
-Questo gruppo include le attività di coloro che agiscono in qualità di agenti (ovvero mediatori) nella vendita di rendite vitalizie e polizze assicurative o nell'erogazione di altri benefici o servizi relativi alle assicurazioni e ai fondi pensione, come la liquidazione degli indennizzi e l'attività di gestione delle polizze assicurative di una impresa o di un gruppo di imprese da parte di soggetti diversi dalla società di assicurazione e dall'assicurato.
-",,,
-K,66.3,gruppo,attività di gestione dei fondi,,"# attività di gestione dei fondi
-
-
-",,,
-L,68.1,gruppo,compravendita di beni immobili effettuata su beni propri,,"# compravendita di beni immobili effettuata su beni propri
-
-
-",,,
-L,68.2,gruppo,affitto e gestione di immobili di proprietà o in leasing,,"# affitto e gestione di immobili di proprietà o in leasing
-
-
-",,,
-L,68.3,gruppo,attività immobiliari per conto terzi,,"# attività immobiliari per conto terzi
-
-
-",,,
-M,69.1,gruppo,attività degli studi legali,,"# attività degli studi legali
-
-
-",,,
-M,69.2,gruppo,"contabilità, controllo e revisione contabile, consulenza in materia fiscale e del lavoro",,"# contabilità, controllo e revisione contabile, consulenza in materia fiscale e del lavoro
-
-
-",,,
-M,70.1,gruppo,attività di direzione aziendale,,"# attività di direzione aziendale
-
-
-",,,
-M,70.2,gruppo,attività di consulenza gestionale,,"# attività di consulenza gestionale
-
-
-",,,
-M,71.1,gruppo,"attività degli studi di architettura, ingegneria ed altri studi tecnici","Questo gruppo include le attività degli studi di architettura ed ingegneria, i servizi di stesura di progetti, di ispezione edile, le attività di indagine e di mappatura e simili.","# attività degli studi di architettura, ingegneria ed altri studi tecnici
-
-Questo gruppo include le attività degli studi di architettura ed ingegneria, i servizi di stesura di progetti, di ispezione edile, le attività di indagine e di mappatura e simili.
-",,,
-M,71.2,gruppo,collaudi ed analisi tecniche,,"# collaudi ed analisi tecniche
-
-
-",,,
-M,72.1,gruppo,ricerca e sviluppo sperimentale nel campo delle scienze naturali e dell'ingegneria,"Questo gruppo comprende la ricerca di base, la ricerca applicata e lo sviluppo sperimentale nel campo delle scienze naturali e dell'ingegneria.","# ricerca e sviluppo sperimentale nel campo delle scienze naturali e dell'ingegneria
-
-Questo gruppo comprende la ricerca di base, la ricerca applicata e lo sviluppo sperimentale nel campo delle scienze naturali e dell'ingegneria.
-",,,
-M,72.2,gruppo,ricerca e sviluppo sperimentale nel campo delle scienze sociali e umanistiche,,"# ricerca e sviluppo sperimentale nel campo delle scienze sociali e umanistiche
-
-
-",,,
-M,73.1,gruppo,pubblicità,,"# pubblicità
-
-
-",,,
-M,73.2,gruppo,ricerche di mercato e sondaggi di opinione,,"# ricerche di mercato e sondaggi di opinione
-
-
-",,,
-M,74.1,gruppo,attività di design specializzate,,"# attività di design specializzate
-
-
-",,,
-M,74.2,gruppo,attività fotografiche,,"# attività fotografiche
-
-
-",,,
-M,74.3,gruppo,traduzione e interpretariato,,"# traduzione e interpretariato
-
-
-",,,
-M,74.9,gruppo,"altre attività professionali, scientifiche e tecniche n.c.a.",,"# altre attività professionali, scientifiche e tecniche n.c.a.
-
-
-",,,
-M,75.0,gruppo,servizi veterinari,,"# servizi veterinari
-
-
-",,,
-N,77.1,gruppo,noleggio di autoveicoli,,"# noleggio di autoveicoli
-
-
-",,,
-N,77.2,gruppo,noleggio di beni per uso personale e per la casa,"Questo gruppo include il noleggio di beni per uso personale e per la casa, nonché il noleggio di attrezzature sportive, ricreative e di videocassette. Tali attività includono, generalmente, il noleggio a breve termine di beni, sebbene in alcuni casi possano essere noleggiati per periodi più lunghi.","# noleggio di beni per uso personale e per la casa
-
-Questo gruppo include il noleggio di beni per uso personale e per la casa, nonché il noleggio di attrezzature sportive, ricreative e di videocassette. Tali attività includono, generalmente, il noleggio a breve termine di beni, sebbene in alcuni casi possano essere noleggiati per periodi più lunghi.
-",,,
-N,77.3,gruppo,"noleggio di altre macchine, attrezzature e beni materiali",,"# noleggio di altre macchine, attrezzature e beni materiali
-
-
-",,,
-N,77.4,gruppo,concessione dei diritti di sfruttamento di proprietà intellettuale e prodotti simili (escluse le opere protette dal copyright),,"# concessione dei diritti di sfruttamento di proprietà intellettuale e prodotti simili (escluse le opere protette dal copyright)
-
-
-",,,
-N,78.1,gruppo,attività di agenzie di collocamento,,"# attività di agenzie di collocamento
-
-
-",,,
-N,78.2,gruppo,attività delle agenzie di lavoro temporaneo (interinale),,"# attività delle agenzie di lavoro temporaneo (interinale)
-
-
-",,,
-N,78.3,gruppo,altre attività di fornitura e gestione di risorse umane,,"# altre attività di fornitura e gestione di risorse umane
-
-
-",,,
-N,79.1,gruppo,attività delle agenzie di viaggio e dei tour operator,"Questo gruppo include le attività delle agenzie principalmente impegnate nella vendita di pacchetti di viaggio, gite, servizi di trasporto e sistemazione per il pubblico e per clienti commerciali, le attività di organizzazione e gestione di gite turistiche proposte da agenzie di viaggio o tour operator.","# attività delle agenzie di viaggio e dei tour operator
-
-Questo gruppo include le attività delle agenzie principalmente impegnate nella vendita di pacchetti di viaggio, gite, servizi di trasporto e sistemazione per il pubblico e per clienti commerciali, le attività di organizzazione e gestione di gite turistiche proposte da agenzie di viaggio o tour operator.
-",,,
-N,79.9,gruppo,altri servizi di prenotazione e attività connesse,,"# altri servizi di prenotazione e attività connesse
-
-
-",,,
-N,80.1,gruppo,servizi di vigilanza privata,,"# servizi di vigilanza privata
-
-
-",,,
-N,80.2,gruppo,servizi connessi ai sistemi di vigilanza,,"# servizi connessi ai sistemi di vigilanza
-
-
-",,,
-N,80.3,gruppo,servizi investigativi privati,,"# servizi investigativi privati
-
-
-",,,
-N,81.1,gruppo,servizi integrati di gestione agli edifici,,"# servizi integrati di gestione agli edifici
-
-
-",,,
-N,81.2,gruppo,attività di pulizia e disinfestazione,"Questo gruppo include i servizi di pulizia effettuati all'interno di immobili di ogni tipo, la pulizia esterna di edifici, la pulizia specializzata per edifici o altro, la pulizia di macchine industriali, la pulizia interna delle cisterne per trasporti su strada o marittimi, le attività di disinfezione e di disinfestazione di edifici e di macchinari industriali, la pulizia delle bottiglie, la pulizia delle strade, la rimozione di neve e ghiaccio. Sono escluse le seguenti attività: - la disinfestazione connessa all'agricoltura, cfr. 01.61 - la pulizia di nuovi edifici immediatamente conseguente alla loro costruzione, cfr. 43.39 - la pulizia con vapore, la sabbiatura e simili attività di pulitura di facciate di edifici, cfr. 43.99 - il lavaggio di tappeti e moquette, di tessuti e di tendaggi, cfr. 96.01","# attività di pulizia e disinfestazione
-
-Questo gruppo include i servizi di pulizia effettuati all'interno di immobili di ogni tipo, la pulizia esterna di edifici, la pulizia specializzata per edifici o altro, la pulizia di macchine industriali, la pulizia interna delle cisterne per trasporti su strada o marittimi, le attività di disinfezione e di disinfestazione di edifici e di macchinari industriali, la pulizia delle bottiglie, la pulizia delle strade, la rimozione di neve e ghiaccio. Sono escluse le seguenti attività: - la disinfestazione connessa all'agricoltura, cfr. 01.61 - la pulizia di nuovi edifici immediatamente conseguente alla loro costruzione, cfr. 43.39 - la pulizia con vapore, la sabbiatura e simili attività di pulitura di facciate di edifici, cfr. 43.99 - il lavaggio di tappeti e moquette, di tessuti e di tendaggi, cfr. 96.01
-
-Questa sezione ATECO non comprende le seguenti attività:
-
-- la disinfestazione connessa all'agricoltura, cfr. 01.61 - la pulizia di nuovi edifici immediatamente conseguente alla loro costruzione, cfr. 43.39 - la pulizia con vapore, la sabbiatura e simili attività di pulitura di facciate di edifici, cfr. 43.99 - il lavaggio di tappeti e moquette, di tessuti e di tendaggi, cfr. 96.01, 
-","- la disinfestazione connessa all'agricoltura, cfr. 01.61 - la pulizia di nuovi edifici immediatamente conseguente alla loro costruzione, cfr. 43.39 - la pulizia con vapore, la sabbiatura e simili attività di pulitura di facciate di edifici, cfr. 43.99 - il lavaggio di tappeti e moquette, di tessuti e di tendaggi, cfr. 96.01",,
-N,81.3,gruppo,cura e manutenzione del paesaggio,,"# cura e manutenzione del paesaggio
-
-
-",,,
-N,82.1,gruppo,attività di supporto per le funzioni d'ufficio,,"# attività di supporto per le funzioni d'ufficio
-
-
-",,,
-N,82.2,gruppo,attività dei call center,,"# attività dei call center
-
-
-",,,
-N,82.3,gruppo,organizzazione di convegni e fiere,,"# organizzazione di convegni e fiere
-
-
-",,,
-N,82.9,gruppo,servizi di supporto alle imprese n.c.a.,Questo gruppo include le attività di recupero crediti svolte da agenzie specializzate e tutte quelle attività di supporto alle imprese non classificate altrove.,"# servizi di supporto alle imprese n.c.a.
-
-Questo gruppo include le attività di recupero crediti svolte da agenzie specializzate e tutte quelle attività di supporto alle imprese non classificate altrove.
-",,,
-O,84.1,gruppo,"amministrazione pubblica: amministrazione generale, economica e sociale","Questo gruppo include le attività generali di amministrazione (esempio amministrazione esecutiva, legislativa, finanziaria eccetera a tutti i livelli di governo) e le attività di supervisione nel settore sociale ed economico.","# amministrazione pubblica: amministrazione generale, economica e sociale
-
-Questo gruppo include le attività generali di amministrazione (esempio amministrazione esecutiva, legislativa, finanziaria eccetera a tutti i livelli di governo) e le attività di supervisione nel settore sociale ed economico.
-",,,
-O,84.2,gruppo,servizi collettivi delle amministrazioni pubbliche,"Questo gruppo include le attività degli affari esteri, della difesa, dell'ordine e della sicurezza pubblica.","# servizi collettivi delle amministrazioni pubbliche
-
-Questo gruppo include le attività degli affari esteri, della difesa, dell'ordine e della sicurezza pubblica.
-",,,
-O,84.3,gruppo,assicurazione sociale obbligatoria,,"# assicurazione sociale obbligatoria
-
-
-",,,
-P,85.1,gruppo,istruzione prescolastica,,"# istruzione prescolastica
-
-
-",,,
-P,85.2,gruppo,istruzione primaria,,"# istruzione primaria
-
-
-",,,
-P,85.3,gruppo,istruzione secondaria,"Questo gruppo include l'erogazione di corsi di istruzione secondaria generale, tecnica e professionale. Sono escluse le seguenti attività: - istruzione per adulti, come definita nel gruppo 85.5","# istruzione secondaria
-
-Questo gruppo include l'erogazione di corsi di istruzione secondaria generale, tecnica e professionale. Sono escluse le seguenti attività: - istruzione per adulti, come definita nel gruppo 85.5
-
-Questa sezione ATECO non comprende le seguenti attività:
-
-- istruzione per adulti, come definita nel gruppo 85.5, 
-","- istruzione per adulti, come definita nel gruppo 85.5",,
-P,85.4,gruppo,istruzione post-secondaria universitaria e non universitaria,"Questo gruppo include l'erogazione di corsi di istruzione post-secondaria non universitaria e di corsi universitari per il conferimento dei titoli accademici di laurea, laurea specialistica e specializzazione post- laurea. Sono escluse le seguenti attività: - istruzione per adulti, come definita nel gruppo 85.5","# istruzione post-secondaria universitaria e non universitaria
-
-Questo gruppo include l'erogazione di corsi di istruzione post-secondaria non universitaria e di corsi universitari per il conferimento dei titoli accademici di laurea, laurea specialistica e specializzazione post- laurea. Sono escluse le seguenti attività: - istruzione per adulti, come definita nel gruppo 85.5
-
-Questa sezione ATECO non comprende le seguenti attività:
-
-- istruzione per adulti, come definita nel gruppo 85.5, 
-","- istruzione per adulti, come definita nel gruppo 85.5",,
-P,85.5,gruppo,altri servizi di istruzione,"Questo gruppo include l'istruzione generale continua, istruzione professionale continua e la formazione per le varie professioni, per hobby o per lo sviluppo conoscitivo personale. Sono escluse le attività comprese nei gruppi 85.1-85.4 - istruzione prescolastica, istruzione primaria, istruzione secondaria ed istruzione superiore. Sono inclusi corsi di preparazione all'attività sportiva, corsi di lingua straniera, corsi di arte, recitazione o musica o altri corsi di formazione specialistici, non assimilabili alle attività di istruzione generale comprese nei gruppi 85.1-85.4","# altri servizi di istruzione
-
-Questo gruppo include l'istruzione generale continua, istruzione professionale continua e la formazione per le varie professioni, per hobby o per lo sviluppo conoscitivo personale. Sono escluse le attività comprese nei gruppi 85.1-85.4 - istruzione prescolastica, istruzione primaria, istruzione secondaria ed istruzione superiore. Sono inclusi corsi di preparazione all'attività sportiva, corsi di lingua straniera, corsi di arte, recitazione o musica o altri corsi di formazione specialistici, non assimilabili alle attività di istruzione generale comprese nei gruppi 85.1-85.4
-",,,
-P,85.6,gruppo,attività di supporto all'istruzione,,"# attività di supporto all'istruzione
-
-
-",,,
-Q,86.1,gruppo,servizi ospedalieri,,"# servizi ospedalieri
-
-
-",,,
-Q,86.2,gruppo,servizi degli studi medici e odontoiatrici,"Questo gruppo include le visite mediche ed i trattamenti effettuati da medici generici, specialisti, inclusi chirurghi, dentisti eccetera. Le attività previste in questo gruppo possono essere svolte in studi privati, in ambulatori in cui operano gruppi di medici ed in cliniche ospedaliere che svolgono servizio ambulatoriale presso aziende, scuole, case di riposo, organizzazioni sindacali, nonché a domicilio degli ammalati. Questo gruppo include anche: - servizi di consulto privato a pazienti ricoverati","# servizi degli studi medici e odontoiatrici
-
-Questo gruppo include le visite mediche ed i trattamenti effettuati da medici generici, specialisti, inclusi chirurghi, dentisti eccetera. Le attività previste in questo gruppo possono essere svolte in studi privati, in ambulatori in cui operano gruppi di medici ed in cliniche ospedaliere che svolgono servizio ambulatoriale presso aziende, scuole, case di riposo, organizzazioni sindacali, nonché a domicilio degli ammalati. Questo gruppo include anche: - servizi di consulto privato a pazienti ricoverati
-",,,
-Q,86.9,gruppo,altri servizi di assistenza sanitaria,,"# altri servizi di assistenza sanitaria
-
-
-",,,
-Q,87.1,gruppo,strutture di assistenza infermieristica residenziale,,"# strutture di assistenza infermieristica residenziale
-
-
-",,,
-Q,87.2,gruppo,"strutture di assistenza residenziale per persone affette da ritardi mentali, disturbi mentali o che abusano di sostanze stupefacenti",,"# strutture di assistenza residenziale per persone affette da ritardi mentali, disturbi mentali o che abusano di sostanze stupefacenti
-
-
-",,,
-Q,87.3,gruppo,strutture di assistenza residenziale per anziani e disabili,,"# strutture di assistenza residenziale per anziani e disabili
-
-
-",,,
-Q,87.9,gruppo,altre strutture di assistenza sociale residenziale,,"# altre strutture di assistenza sociale residenziale
-
-
-",,,
-Q,88.1,gruppo,assistenza sociale non residenziale per anziani e disabili,,"# assistenza sociale non residenziale per anziani e disabili
-
-
-",,,
-Q,88.9,gruppo,altre attività di assistenza sociale non residenziale,,"# altre attività di assistenza sociale non residenziale
-
-
-",,,
-R,90.0,gruppo,"attività creative, artistiche e di intrattenimento",Questo gruppo include attività di creazioni e rappresentazioni artistiche e simili.,"# attività creative, artistiche e di intrattenimento
-
-Questo gruppo include attività di creazioni e rappresentazioni artistiche e simili.
-",,,
-R,91.0,gruppo,"attività di biblioteche, archivi, musei ed altre attività culturali",,"# attività di biblioteche, archivi, musei ed altre attività culturali
-
-
-",,,
-R,92.0,gruppo,"attività riguardanti le lotterie, le scommesse, le case da gioco",,"# attività riguardanti le lotterie, le scommesse, le case da gioco
-
-
-",,,
-R,93.1,gruppo,attività sportive,"Questo gruppo include la gestione di impianti sportivi; la gestione di squadre o club sportivi mirata principalmente alla partecipazione ad eventi che si svolgono di fronte ad un pubblico pagante; atleti indipendenti ingaggiati per partecipare ad eventi sportivi o gare dal vivo con spettatori paganti; proprietari di mezzi utilizzati nelle gare, quali automobili, cani, cavalli eccetera principalmente impegnati nella partecipazione a gare o ad altri eventi sportivi con spettatori; allenatori che forniscono servizi specialistici di supporto a chi partecipa ad eventi sportivi o gare; gestori di palazzetti dello sport e stadi; altre attività di organizzazione, promozione o gestione di eventi sportivi n.c.a..","# attività sportive
-
-Questo gruppo include la gestione di impianti sportivi; la gestione di squadre o club sportivi mirata principalmente alla partecipazione ad eventi che si svolgono di fronte ad un pubblico pagante; atleti indipendenti ingaggiati per partecipare ad eventi sportivi o gare dal vivo con spettatori paganti; proprietari di mezzi utilizzati nelle gare, quali automobili, cani, cavalli eccetera principalmente impegnati nella partecipazione a gare o ad altri eventi sportivi con spettatori; allenatori che forniscono servizi specialistici di supporto a chi partecipa ad eventi sportivi o gare; gestori di palazzetti dello sport e stadi; altre attività di organizzazione, promozione o gestione di eventi sportivi n.c.a..
-",,,
-R,93.2,gruppo,attività ricreative e di divertimento,"Questo gruppo include un'ampia gamma di unità che gestiscono strutture o forniscono servizi mirati a soddisfare diversi interessi. È inclusa la gestione di varie attrazioni quali giostre meccaniche, giochi d'acqua, giochi, spettacoli, esibizioni a tema e aree da picnic.","# attività ricreative e di divertimento
-
-Questo gruppo include un'ampia gamma di unità che gestiscono strutture o forniscono servizi mirati a soddisfare diversi interessi. È inclusa la gestione di varie attrazioni quali giostre meccaniche, giochi d'acqua, giochi, spettacoli, esibizioni a tema e aree da picnic.
-",,,
-S,94.1,gruppo,"attività di organizzazioni economiche, di datori di lavoro e professionali","Questo gruppo include le attività di organizzazioni che promuovono gli interessi dei membri delle organizzazioni economiche e di datori di lavoro. Nel caso delle organizzazioni professionali, sono incluse anche le attività di promozione degli interessi professionali dei membri.","# attività di organizzazioni economiche, di datori di lavoro e professionali
-
-Questo gruppo include le attività di organizzazioni che promuovono gli interessi dei membri delle organizzazioni economiche e di datori di lavoro. Nel caso delle organizzazioni professionali, sono incluse anche le attività di promozione degli interessi professionali dei membri.
-",,,
-S,94.2,gruppo,attività dei sindacati di lavoratori dipendenti,,"# attività dei sindacati di lavoratori dipendenti
-
-
-",,,
-S,94.9,gruppo,attività di altre organizzazioni associative,"Questo gruppo include le attività delle organizzazioni (escluse le organizzazioni economiche e dei datori di lavoro, le associazioni professionali, i sindacati) che promuovono gli interessi dei propri membri.","# attività di altre organizzazioni associative
-
-Questo gruppo include le attività delle organizzazioni (escluse le organizzazioni economiche e dei datori di lavoro, le associazioni professionali, i sindacati) che promuovono gli interessi dei propri membri.
-
-Questa sezione ATECO non comprende le seguenti attività:
-
-, escluse le organizzazioni economiche e dei datori di lavoro, le associazioni professionali, i sindacati
-",,"escluse le organizzazioni economiche e dei datori di lavoro, le associazioni professionali, i sindacati",
-S,95.1,gruppo,riparazione di computer e di apparecchiature per le comunicazioni,"Questo gruppo include la riparazione e la manutenzione di computer, periferiche ed apparecchiature per le comunicazioni.","# riparazione di computer e di apparecchiature per le comunicazioni
-
-Questo gruppo include la riparazione e la manutenzione di computer, periferiche ed apparecchiature per le comunicazioni.
-",,,
-S,95.2,gruppo,riparazione di beni per uso personale e per la casa,,"# riparazione di beni per uso personale e per la casa
-
-
-",,,
-S,96.0,gruppo,altre attività di servizi per la persona,,"# altre attività di servizi per la persona
-
-
-",,,
-T,97.0,gruppo,attività di famiglie e convivenze come datori di lavoro per personale domestico,,"# attività di famiglie e convivenze come datori di lavoro per personale domestico
-
-
-",,,
-T,98.1,gruppo,produzione di beni indifferenziati per uso proprio da parte di famiglie e convivenze,,"# produzione di beni indifferenziati per uso proprio da parte di famiglie e convivenze
-
-
-",,,
-T,98.2,gruppo,produzione di servizi indifferenziati per uso proprio da parte di famiglie e convivenze,,"# produzione di servizi indifferenziati per uso proprio da parte di famiglie e convivenze
-
-
-",,,
-U,99.0,gruppo,organizzazioni ed organismi extraterritoriali,,"# organizzazioni ed organismi extraterritoriali
-
-
-",,,
+main,code,title,description,exclusion_title,exclusion_list,exclusion_description,level
+A,01.1,coltivazione di colture agricole non permanenti,"Questo gruppo include la coltivazione di colture non permanenti, ossia piante che non durano più di due stagioni agricole. È inclusa la coltivazione di queste piante per la produzione di sementi.",,,,gruppo
+A,01.2,coltivazione di colture permanenti,"Questo gruppo include la coltivazione di colture permanenti, ossia di piante che durano nel terreno più di due annate agrarie, che pur morendo stagionalmente ricrescono in modo costante. È inclusa la coltivazione di queste piante per la produzione di sementi.",,,,gruppo
+A,01.3,riproduzione delle piante,,,,,gruppo
+A,01.4,allevamento di animali,"Questo gruppo include l'allevamento e la riproduzione di tutti gli animali (esclusa la fauna acquatica). Sono escluse le seguenti attività: - gestione e cura del bestiame per conto terzi, cfr. 01.62 - produzione di pellame proveniente dai macelli, cfr. 10.11",,"- gestione e cura del bestiame per conto terzi, cfr. 01.62 - produzione di pellame proveniente dai macelli, cfr. 10.11",esclusa la fauna acquatica,gruppo
+A,01.5,coltivazioni agricole associate all'allevamento di animali: attività mista,,,,,gruppo
+A,01.6,attività di supporto all'agricoltura e attività successive alla raccolta,"Questo gruppo include le attività connesse alla produzione agricola e le attività similari non finalizzate alla raccolta di prodotti agricoli, effettuate per conto terzi. Sono anche incluse le attività che seguono la raccolta, mirate alla preparazione dei prodotti agricoli per il mercato primario.",,,,gruppo
+A,01.7,"caccia, cattura di animali e servizi connessi",,,,,gruppo
+A,02.1,silvicoltura ed altre attività forestali,,,,,gruppo
+A,02.2,utilizzo di aree forestali,,,,,gruppo
+A,02.3,raccolta di prodotti selvatici non legnosi,,,,,gruppo
+A,02.4,servizi di supporto per la silvicoltura,,,,,gruppo
+A,03.1,pesca,"Questo gruppo include ""la cattura di fauna marina"", ossia le attività di caccia, rimozione e cattura di organismi acquatici viventi (generalmente pesci, molluschi e crostacei), incluse le alghe provenienti da acque oceaniche, costiere o interne, destinate al consumo da parte dell'uomo e ad altri scopi, effettuate a mano o più generalmente tramite attrezzature da pesca come reti e trappole in linea o stazionarie. Tali attività possono essere condotte sulla linea costiera litorale (per esempio, la raccolta di molluschi come cozze ed ostriche), tramite cattura con reti a terra, utilizzando imbarcazioni in acque interne, costiere o in mare aperto. Tali attività includono anche la pesca professionale in specchi d'acqua ripopolati.",,,,gruppo
+A,03.2,acquacoltura,"Questo gruppo include ""l'acquacoltura"" (o aquafarming), ossia il processo di produzione che prevede la coltivazione o l'allevamento (inclusa la raccolta) di organismi acquatici (pesci, molluschi, crostacei, piante, coccodrilli, alligatori e anfibi) utilizzando tecniche progettate per aumentare la produzione di tali organismi, oltre la capacità naturale dell'ambiente (per esempio, nutrimento regolare e difesa dai predatori).",,,,gruppo
+B,05.1,estrazione di antracite,,,,,gruppo
+B,05.2,estrazione di lignite,,,,,gruppo
+B,06.1,estrazione di petrolio greggio,,,,,gruppo
+B,06.2,estrazione di gas naturale,,,,,gruppo
+B,07.1,estrazione di minerali metalliferi ferrosi,,,,,gruppo
+B,07.2,estrazione di minerali metalliferi non ferrosi,,,,,gruppo
+B,08.1,"estrazione di pietra, sabbia e argilla",,,,,gruppo
+B,08.9,estrazione di minerali da cave e miniere n.c.a.,,,,,gruppo
+B,09.1,attività di supporto all'estrazione di petrolio e di gas naturale,,,,,gruppo
+B,09.9,attività di supporto per l'estrazione da cave e miniere di altri minerali,,,,,gruppo
+C,10.1,lavorazione e conservazione di carne e produzione di prodotti a base di carne,,,,,gruppo
+C,10.2,"lavorazione e conservazione di pesce, crostacei e molluschi",,,,,gruppo
+C,10.3,lavorazione e conservazione di frutta e ortaggi,,,,,gruppo
+C,10.4,produzione di oli e grassi vegetali e animali,"Questo gruppo include la produzione di oli e grassi grezzi e raffinati di origine vegetale o animale, eccetto la fusione o la lavorazione di strutto e altri grassi animali commestibili.",,,,gruppo
+C,10.5,industria lattiero-casearia,,,,,gruppo
+C,10.6,"lavorazione delle granaglie, produzione di amidi e di prodotti amidacei","Questo gruppo include la molitura di farina o sfarinati di granaglie o ortaggi, la molitura, la pulitura e la lucidatura del riso, oltre alla produzione di farine miscelate o impasti di tali prodotti. In questo gruppo si include anche la macinatura umida del granoturco e degli ortaggi, nonché la produzione di amido e prodotti amidacei.",,,,gruppo
+C,10.7,produzione di prodotti da forno e farinacei,"Questo gruppo include la produzione di prodotti di panetteria, paste alimentari e prodotti simili.",,,,gruppo
+C,10.8,produzione di altri prodotti alimentari,"Questo gruppo include la produzione di zucchero e confetterie, pasti e piatti pronti, caffè, tè e spezie, alimenti confezionati deperibili, prodotti alimentari specializzati.",,,,gruppo
+C,10.9,produzione di prodotti per l'alimentazione degli animali,,,,,gruppo
+C,11.0,industria delle bevande,,,,,gruppo
+C,12.0,industria del tabacco,,,,,gruppo
+C,13.1,preparazione e filatura di fibre tessili,,,,,gruppo
+C,13.2,tessitura,,,,,gruppo
+C,13.3,finissaggio dei tessili,,,,,gruppo
+C,13.9,altre industrie tessili,"Questo gruppo include la fabbricazione di prodotti tessili, ad eccezione degli articoli di vestiario, come tessuti a maglia, biancheria, tappeti e tappetini, corde, nastri, passamaneria eccetera.",,,,gruppo
+C,14.1,confezione di articoli di abbigliamento (escluso abbigliamento in pelliccia),"Questo gruppo include la fabbricazione di articoli di vestiario. Il materiale utilizzato può essere di qualsiasi tipo e può essere spalmato, impregnato o gommato.",,,,gruppo
+C,14.2,confezione di articoli in pelliccia,,,,,gruppo
+C,14.3,fabbricazione di articoli di maglieria,,,,,gruppo
+C,15.1,"preparazione e concia del cuoio; fabbricazione di articoli da viaggio, borse, pelletteria e selleria; preparazione e tintura di pellicce","Questo gruppo include la fabbricazione di cuoio, pelle e pelliccia e articoli derivati",,,,gruppo
+C,15.2,fabbricazione di calzature,,,,,gruppo
+C,16.1,taglio e piallatura del legno,,,,,gruppo
+C,16.2,"fabbricazione di prodotti in legno, sughero, paglia e materiali da intreccio","Questo gruppo include la fabbricazione di prodotti in legno, in sughero, paglia e materiali da intreccio, incluse le sagome e i prodotti assemblati.",,,,gruppo
+C,17.1,"fabbricazione di pasta-carta, carta e cartone",,,,,gruppo
+C,17.2,fabbricazione di articoli di carta e cartone,,,,,gruppo
+C,18.1,stampa e servizi connessi alla stampa,"Questo gruppo include le attività di stampa di quotidiani, libri, periodici, moduli commerciali, biglietti d'auguri e altro materiale; sono comprese anche le attività di supporto, quali la legatoria, la preparazione di lastre, di testi e di immagini. La stampa può essere effettuata utilizzando tecniche e materiali differenti.",,,,gruppo
+C,18.2,riproduzione di supporti registrati,,,,,gruppo
+C,19.1,fabbricazione di prodotti di cokeria,,,,,gruppo
+C,19.2,fabbricazione di prodotti derivanti dalla raffinazione del petrolio,,,,,gruppo
+C,20.1,"fabbricazione di prodotti chimici di base, di fertilizzanti e composti azotati, di materie plastiche e gomma sintetica in forme primarie",,,,,gruppo
+C,20.2,fabbricazione di agrofarmaci e di altri prodotti chimici per l'agricoltura,,,,,gruppo
+C,20.3,"fabbricazione di pitture, vernici e smalti, inchiostri da stampa e adesivi sintetici (mastici)",,,,,gruppo
+C,20.4,"fabbricazione di saponi e detergenti, di prodotti per la pulizia e la lucidatura, di profumi e cosmetici",,,,,gruppo
+C,20.5,fabbricazione di altri prodotti chimici,"Questo gruppo include la fabbricazione di esplosivi e articoli pirotecnici, colle, oli essenziali e altri prodotti chimici n.c.a. per esempio: preparazioni chimiche per uso fotografico (incluse pellicole e carta sensibilizzata), gelatine, preparazioni diagnostiche composite eccetera.",,,,gruppo
+C,20.6,fabbricazione di fibre sintetiche e artificiali,,,,,gruppo
+C,21.1,fabbricazione di prodotti farmaceutici di base,,,,,gruppo
+C,21.2,fabbricazione di medicinali e preparati farmaceutici,,,,,gruppo
+C,22.1,fabbricazione di articoli in gomma,,,,,gruppo
+C,22.2,fabbricazione di articoli in materie plastiche,"Questo gruppo comprende la trasformazione di resine plastiche nuove o usate (per esempio riciclate) in prodotti intermedi o finali, utilizzando processi quali la compressione, l'estrusione, l'iniezione, il soffio e la fusione. Nella maggior parte dei casi, il processo di produzione permette di ottenere una grande varietà di prodotti.",,,,gruppo
+C,23.1,fabbricazione di vetro e di prodotti in vetro,"Questo gruppo include la fabbricazione di vetro in tutte le sue forme e di prodotti in vetro, ottenuti tramite qualsiasi processo.",,,,gruppo
+C,23.2,fabbricazione di prodotti refrattari,,,,,gruppo
+C,23.3,fabbricazione di materiali da costruzione in terracotta,,,,,gruppo
+C,23.4,fabbricazione di altri prodotti in porcellana e in ceramica,"Questo gruppo include la fabbricazione di prodotti finiti provenienti da minerali non metalliferi, come sabbia, ghiaia, pietra o argilla.",,,,gruppo
+C,23.5,"produzione di cemento, calce e gesso",,,,,gruppo
+C,23.6,"fabbricazione di prodotti in calcestruzzo, cemento e gesso",,,,,gruppo
+C,23.7,"taglio, modellatura e finitura di pietre",,,,,gruppo
+C,23.9,fabbricazione di prodotti abrasivi e di prodotti in minerali non metalliferi n.c.a.,,,,,gruppo
+C,24.1,siderurgia,Questo gruppo comprende attività quali la riduzione diretta del minerale di ferro; la fabbricazione di ghisa grezza in forma liquida o solida; la conversione di ghisa grezza in acciaio; la fabbricazione di ferroleghe e di prodotti siderurgici.,,,,gruppo
+C,24.2,"fabbricazione di tubi, condotti, profilati cavi e relativi accessori in acciaio (esclusi quelli in acciaio colato)",,,,,gruppo
+C,24.3,fabbricazione di altri prodotti della prima trasformazione dell'acciaio,Questo gruppo include la fabbricazione di altri prodotti della trasformazione a freddo dell'acciaio.,,,,gruppo
+C,24.4,"produzione di metalli di base preziosi e altri metalli non ferrosi, trattamento dei combustibili nucleari",,,,,gruppo
+C,24.5,fonderie,"Questo gruppo include la fabbricazione di prodotti semilavorati e getti di vario genere che possono essere anche prodotti finiti, tramite fusione. Sono escluse le seguenti attività: - fabbricazione di prodotti di fusione finiti quali: contenitori per caldaie e radiatori, cfr. 25.21 - fabbricazione di prodotti domestici di fusione, cfr. 25.99",,"- fabbricazione di prodotti di fusione finiti quali: contenitori per caldaie e radiatori, cfr. 25.21 - fabbricazione di prodotti domestici di fusione, cfr. 25.99",,gruppo
+C,25.1,fabbricazione di elementi da costruzione in metallo,Questo gruppo include la fabbricazione di elementi da costruzione in metallo (quali strutture metalliche o parti di costruzioni).,,,,gruppo
+C,25.2,"fabbricazione di cisterne, serbatoi, radiatori e contenitori in metallo","Questo gruppo include la fabbricazione di serbatoi, cisterne, radiatori per riscaldamento e contenitori in metallo.",,,,gruppo
+C,25.3,fabbricazione di generatori di vapore (esclusi i contenitori in metallo per caldaie per il riscaldamento centrale ad acqua calda),,,,,gruppo
+C,25.4,fabbricazione di armi e munizioni,,,,,gruppo
+C,25.5,"fucinatura, imbutitura, stampaggio e profilatura dei metalli; metallurgia delle polveri","Questo gruppo include le attività generali di lavorazione dei metalli, quali la fucinatura o lo stampaggio.",,,,gruppo
+C,25.6,trattamento e rivestimento dei metalli; lavori di meccanica generale,"Questo gruppo include le attività generali di lavorazione dei metalli, quali placcatura, rivestimento, incisione, alesatura, lucidatura, saldatura eccetera.",,,,gruppo
+C,25.7,"fabbricazione di articoli di coltelleria, utensili e oggetti di ferramenta","Questo gruppo include la fabbricazione di articoli di coltelleria, utensili metallici ed oggetti di uso generale.",,,,gruppo
+C,25.9,fabbricazione di altri prodotti in metallo,"Questo gruppo include la fabbricazione di vari prodotti in metallo per uso domestico e per l'industria, quali lattine e bidoni; chiodi, viti e dadi; attrezzi di fissaggio; eliche ed ancore per navi; strutture assemblate per linee ferroviarie eccetera.",,,,gruppo
+C,26.1,fabbricazione di componenti elettronici e schede elettroniche,,,,,gruppo
+C,26.2,fabbricazione di computer e unità periferiche,,,,,gruppo
+C,26.3,fabbricazione di apparecchiature per le telecomunicazioni,,,,,gruppo
+C,26.4,fabbricazione di prodotti di elettronica di consumo audio e video,,,,,gruppo
+C,26.5,"fabbricazione di strumenti e apparecchi di misurazione, prova e navigazione; orologi","Questo gruppo include la fabbricazione di strumenti di misurazione, prova e navigazione per scopi industriali o non, inclusi gli strumenti per la misurazione del tempo come orologi e simili.",,,,gruppo
+C,26.6,"fabbricazione di strumenti per irradiazione, apparecchiature elettromedicali ed elettroterapeutiche",,,,,gruppo
+C,26.7,fabbricazione di strumenti ottici e attrezzature fotografiche,,,,,gruppo
+C,26.8,fabbricazione di supporti magnetici ed ottici,,,,,gruppo
+C,27.1,"fabbricazione di motori, generatori e trasformatori elettrici e di apparecchiature per la distribuzione e il controllo dell'elettricità","Questo gruppo comprende la fabbricazione di trasformatori di potenza, di distribuzione; motori, generatori, insiemi di generatori a motore elettrici.",,,,gruppo
+C,27.2,fabbricazione di batterie di pile ed accumulatori elettrici,,,,,gruppo
+C,27.3,fabbricazione di cablaggi e apparecchiature di cablaggio,"Questo gruppo include la fabbricazione di apparati di cablaggio per il trasporto di corrente elettrica o altro, utilizzati per i circuiti elettrici indipendentemente dal materiale impiegato. Questo gruppo include anche l'isolamento di fili elettrici e la fabbricazione di cavi a fibra ottica.",,,,gruppo
+C,27.4,fabbricazione di apparecchiature per illuminazione,,,,,gruppo
+C,27.5,fabbricazione di apparecchi per uso domestico,"Questo gruppo include la fabbricazione di piccoli elettrodomestici, ventilatori d'aria per uso domestico, aspirapolveri, lucidatrici elettriche, apparecchi per cucinare, lavatrici, frigoriferi, congelatori a colonna e a pozzetto ed altri apparecchi elettrici o non elettrici per uso domestico, quali lavastoviglie, scaldacqua, tritarifiuti",,,,gruppo
+C,27.9,fabbricazione di altre apparecchiature elettriche,,,,,gruppo
+C,28.1,fabbricazione di macchine di impiego generale,,,,,gruppo
+C,28.2,fabbricazione di altre macchine di impiego generale,,,,,gruppo
+C,28.3,fabbricazione di macchine per l'agricoltura e la silvicoltura,,,,,gruppo
+C,28.4,fabbricazione di macchine per la formatura dei metalli e di altre macchine utensili,"Questo gruppo include la fabbricazione di macchine per la formatura dei metalli e di macchine utensili, per esempio macchine utensili per la lavorazione dei metalli e di altri materiali (legno, osso, pietra, gomma indurita, plastiche dure, vetro lavorato a freddo) incluse quelle che utilizzano raggi laser, onde ad ultrasuoni, arco a plasma, impulsi magnetici eccetera.",,,,gruppo
+C,28.9,fabbricazione di altre macchine per impieghi speciali,"Questo gruppo include la fabbricazione di macchine per impieghi speciali, ossia macchine utilizzate esclusivamente in una specifica attività economica. Questo gruppo include anche la fabbricazione di macchinari specifici per altre industrie non manifatturiere, come le catapulte per il lancio di aerei imbarcati o le attrezzature per i parchi di divertimento.",,,,gruppo
+C,29.1,fabbricazione di autoveicoli,,,,,gruppo
+C,29.2,"fabbricazione di carrozzerie per autoveicoli, rimorchi e semirimorchi",,,,,gruppo
+C,29.3,fabbricazione di parti ed accessori per autoveicoli e loro motori,,,,,gruppo
+C,30.1,costruzione di navi e imbarcazioni,"Questo gruppo include la costruzione di navi, imbarcazioni ed altre strutture galleggianti per il trasporto e per altri scopi commerciali, nonché per diporto o attività sportive.",,,,gruppo
+C,30.2,costruzione di locomotive e di materiale rotabile ferro-tranviario,,,,,gruppo
+C,30.3,"fabbricazione di aeromobili, di veicoli spaziali e dei relativi dispositivi",,,,,gruppo
+C,30.4,fabbricazione di veicoli militari da combattimento,,,,,gruppo
+C,30.9,fabbricazione di mezzi di trasporto n.c.a.,"Questo gruppo include la fabbricazione di mezzi di trasporto per uso civile e militare diversi da autoveicoli o mezzi ferroviari, imbarcazioni, attrezzatura per il trasporto aereo o spaziale e veicoli militari.",,,,gruppo
+C,31.0,fabbricazione di mobili,,,,,gruppo
+C,32.1,"fabbricazione di gioielleria, bigiotteria e articoli connessi; lavorazione delle pietre preziose",Questo gruppo include la fabbricazione di gioielleria e articoli di imitazione di gioielleria.,,,,gruppo
+C,32.2,fabbricazione di strumenti musicali,,,,,gruppo
+C,32.3,fabbricazione di articoli sportivi,,,,,gruppo
+C,32.4,fabbricazione di giochi e giocattoli,,,,,gruppo
+C,32.5,fabbricazione di strumenti e forniture mediche e dentistiche,,,,,gruppo
+C,32.9,industrie manifatturiere n.c.a.,,,,,gruppo
+C,33.1,"riparazione e manutenzione di prodotti in metallo, macchine ed apparecchiature","Questo gruppo include la riparazione e la manutenzione da parte di unità specializzate di beni prodotti dal settore manifatturiero, con l'obiettivo di ripristinare le funzionalità di macchine, apparecchiature ed altri prodotti. Il gruppo include l'erogazione di servizi di manutenzione generale o ordinaria (inclusi i servizi di assistenza) destinata a tali prodotti, mirata a garantirne l'efficienza lavorativa e a prevenirne i guasti o le riparazioni non necessarie. Sono escluse le seguenti attività: - ricostruzione o rifabbricazione di macchine ed apparecchiature, cfr. classe corrispondente nelle divisioni 25-30 - pulizia di macchine industriali, cfr. 81.22 - riparazione e manutenzione di computer ed apparecchiature per le comunicazioni, cfr. 95.1 - riparazione e manutenzione di beni per uso personale e per la casa, cfr. 95.2",,"- ricostruzione o rifabbricazione di macchine ed apparecchiature, cfr. classe corrispondente nelle divisioni 25-30 - pulizia di macchine industriali, cfr. 81.22 - riparazione e manutenzione di computer ed apparecchiature per le comunicazioni, cfr. 95.1 - riparazione e manutenzione di beni per uso personale e per la casa, cfr. 95.2",,gruppo
+C,33.2,installazione di macchine ed apparecchiature industriali,,,,,gruppo
+D,35.1,"produzione, trasmissione e distribuzione di energia elettrica","Questo gruppo include la produzione di energia elettrica, nonché la trasmissione dalle centrali di produzione ai centri di distribuzione e la distribuzione agli utenti finali.",,,,gruppo
+D,35.2,produzione di gas; distribuzione di combustibili gassosi mediante condotte,"Questo gruppo include la produzione di gas e la distribuzione di gas naturale o sintetico agli utenti finali mediante un sistema di condotte. Sono inclusi in questo gruppo gli agenti o gli intermediari che organizzano la vendita di gas naturale all'interno di sistemi di distribuzione gestiti da terzi. Dal gruppo è esclusa la gestione separata di gasdotti, che coprono generalmente lunghe distanze e che collegano le aziende produttrici ai distributori di gas o ai centri urbani ed è classificata insieme ad altre attività di trasporto realizzate mediante condotte o tubazioni (cfr. 49.50).",,,,gruppo
+D,35.3,fornitura di vapore e aria condizionata,,,,,gruppo
+E,36.0,"raccolta, trattamento e fornitura di acqua",,,,,gruppo
+E,37.0,gestione delle reti fognarie,,,,,gruppo
+E,38.1,raccolta dei rifiuti,"Questo gruppo include la raccolta di rifiuti provenienti da famiglie e aziende tramite bidoni per la spazzatura, bidoni su ruote, container eccetera. È inclusa la raccolta di rifiuti pericolosi e non pericolosi, ad esempio rifiuti domestici, batterie usate, oli e grassi per cucina usati, oli di scarto provenienti dalle navi e oli esausti provenienti da autofficine, nonché rifiuti da costruzione e demolizione.",,,,gruppo
+E,38.2,trattamento e smaltimento dei rifiuti,"Questo gruppo include lo smaltimento e il trattamento che precede lo smaltimento di varie forme di rifiuti tramite differenti modalità, come il trattamento di rifiuti organici a scopo di smaltimento; il trattamento e lo smaltimento di animali infettivi, vivi o morti, e di altri rifiuti contaminati; il trattamento e lo smaltimento di residui radioattivi di transizione provenienti da ospedali eccetera; il conferimento a discariche o in acqua; l'interramento dei rifiuti; lo smaltimento di beni usati quali frigoriferi, per smaltire i rifiuti tossici; lo smaltimento dei rifiuti tramite incenerimento o combustione. Sono escluse le seguenti attività: - trattamento e smaltimento delle acque reflue, cfr. 37.00 - recupero dei materiali, cfr. 38.3",,"- trattamento e smaltimento delle acque reflue, cfr. 37.00 - recupero dei materiali, cfr. 38.3",,gruppo
+E,38.3,recupero dei materiali,"Da questo gruppo è esclusa la fabbricazione di nuovi prodotti finiti (fabbricati o meno in proprio) a partire da materie prime secondarie, come ad esempio la fabbricazione di filati provenienti da garnettatura, fabbricazione della pasta-carta proveniente da rifiuti di carta, rigenerazione di pneumatici o produzione di metalli provenienti da rifiuti metallici, cfr. classi corrispondenti nella sezione C (Attività manifatturiere).",,,,gruppo
+E,39.0,attività di risanamento e altri servizi di gestione dei rifiuti,,,,,gruppo
+F,41.1,sviluppo di progetti immobiliari,,,,,gruppo
+F,41.2,costruzione di edifici residenziali e non residenziali,"Questo gruppo include la costruzione completa di edifici residenziali o non residenziali eseguiti per conto proprio o per conto terzi e poi venduti. La realizzazione della costruzione, in parte o nella sua totalità può essere data in affidamento all'esterno (outsourcing). È incluso lo sviluppo di progetti immobiliari con costruzione. Se si effettuano solo parti specifiche del processo di costruzione, l'attività è classificata nella divisione 43.",,,,gruppo
+F,42.1,costruzione di strade e ferrovie,,,,,gruppo
+F,42.2,costruzione di opere di pubblica utilità,,,,,gruppo
+F,42.9,costruzione di altre opere di ingegneria civile,,,,,gruppo
+F,43.1,demolizione e preparazione del cantiere edile,"Questo gruppo include le attività di preparazione di un cantiere edile per i successivi lavori di costruzione, inclusa la rimozione di strutture preesistenti.",,,,gruppo
+F,43.2,"installazione di impianti elettrici, idraulici ed altri lavori di costruzione e installazione","Questo gruppo include le attività di installazione di servizi che supportano il funzionamento di un edificio inclusa l'installazione di impianti elettrici, idraulici (acqua, gas e sistemi di fognatura), impianti di riscaldamento e condizionamento dell'aria, ascensori eccetera.",,,,gruppo
+F,43.3,completamento e finitura di edifici,,,,,gruppo
+F,43.9,altri lavori specializzati di costruzione,,,,,gruppo
+G,45.1,commercio di autoveicoli,,,,,gruppo
+G,45.2,manutenzione e riparazione di autoveicoli,,,,,gruppo
+G,45.3,commercio di parti e accessori di autoveicoli,"Questo gruppo include: commercio all'ingrosso e al dettaglio di tutti i tipi di parti, componenti, forniture, strumenti ed accessori per autoveicoli, quali: copertoni in gomma e camere d'aria per pneumatici, candele, batterie, impianti di illuminazione e parti elettriche. È incluso anche il commercio per corrispondenza e via internet.",,,,gruppo
+G,45.4,"commercio, manutenzione e riparazione di motocicli e relative parti ed accessori",,,,,gruppo
+G,46.1,intermediari del commercio,"Questo gruppo include: - attività di operatori di borsa merci, commercianti che effettuano operazioni commerciali a nome e per conto di terzi - attività dei rappresentanti del commercio e intermediari che effettuano transazioni commerciali a nome di un mandante, anche via internet Sono escluse le seguenti attività: - commercio all'ingrosso per proprio conto, cfr. da 46.2 a 46.9 - commercio al dettaglio effettuato per mezzo di agenti al di fuori di negozi, cfr. 47.99 - attività degli agenti di assicurazione, cfr. 66.22 - attività degli agenti immobiliari, cfr. 68.31",,"- commercio all'ingrosso per proprio conto, cfr. da 46.2 a 46.9 - commercio al dettaglio effettuato per mezzo di agenti al di fuori di negozi, cfr. 47.99 - attività degli agenti di assicurazione, cfr. 66.22 - attività degli agenti immobiliari, cfr. 68.31",,gruppo
+G,46.2,commercio all'ingrosso di materie prime agricole e di animali vivi,,,,,gruppo
+G,46.3,"commercio all'ingrosso di prodotti alimentari, bevande e prodotti del tabacco",,,,,gruppo
+G,46.4,commercio all'ingrosso di beni di consumo finale,"Questo gruppo include il commercio all'ingrosso di beni di consumo finale, inclusi i prodotti tessili.",,,,gruppo
+G,46.5,commercio all'ingrosso di apparecchiature ict,"Questo gruppo include il commercio all'ingrosso di apparecchiature per l'informazione e comunicazione tecnologica (ICT) come computer, attrezzature per telecomunicazioni compreso parti e accessori.",,,,gruppo
+G,46.6,"commercio all'ingrosso di altri macchinari, attrezzature e forniture","Questo gruppo include il commercio all'ingrosso di macchinari, attrezzature e forniture per tutti i tipi di industrie e di macchinari di impiego generale.",,,,gruppo
+G,46.7,commercio all'ingrosso specializzato di altri prodotti,"Questo gruppo include altre attività di commercio all'ingrosso specializzato non classificate in altri gruppi di questa divisione. È incluso anche il commercio all'ingrosso di prodotti intermedi, esclusi quelli agricoli, generalmente non destinati all'impiego domestico.",,,,gruppo
+G,46.9,commercio all'ingrosso non specializzato,,,,,gruppo
+G,47.1,commercio al dettaglio in esercizi non specializzati,"Questo gruppo include la vendita al dettaglio di diverse tipologie di prodotti presenti all'interno di uno stesso esercizio (non specializzato), come supermercati o grandi magazzini.",,,,gruppo
+G,47.2,"commercio al dettaglio di prodotti alimentari, bevande e tabacco in esercizi specializzati",,,,,gruppo
+G,47.3,commercio al dettaglio di carburante per autotrazione in esercizi specializzati,,,,,gruppo
+G,47.4,commercio al dettaglio di apparecchiature informatiche e per le telecomunicazioni (ict) in esercizi specializzati,"Questo gruppo include la vendita al dettaglio in esercizi specializzati di apparecchiature informatiche e per telecomunicazioni (ICT), quali computer, periferiche, attrezzature per le telecomunicazioni ed elettronica di consumo audio e video.",,,,gruppo
+G,47.5,commercio al dettaglio di altri prodotti per uso domestico in esercizi specializzati,"Questo gruppo include la vendita al dettaglio in esercizi specializzati di articoli per la casa, quali tessili, ferramenta, tappeti, forniture elettriche o mobili.",,,,gruppo
+G,47.6,commercio al dettaglio di articoli culturali e ricreativi in esercizi specializzati,"Questo gruppo include la vendita al dettaglio in esercizi specializzati di articoli culturali e ricreativi, quali libri, giornali, registrazioni musicali e video, articoli sportivi, giochi e giocattoli.",,,,gruppo
+G,47.7,commercio al dettaglio di altri prodotti in esercizi specializzati,"Questo gruppo include la vendita in esercizi specializzati che offrono una particolare linea di prodotti non compresi in altre parti di questa classificazione, quali articoli di abbigliamento, calzature ed articoli in pelle, prodotti farmaceutici e medicali, orologi, souvenir, materiali per la pulizia, armi, fiori, animali da compagnia e altro. È compresa anche la vendita al dettaglio di articoli di seconda mano in esercizi specializzati.",,,,gruppo
+G,47.8,commercio al dettaglio ambulante,"Commercio al dettaglio di articoli nuovi o usati in banchi, di solito smontabili, collocati su una strada pubblica oppure in un posto fisso all'interno di un mercato",,,,gruppo
+G,47.9,"commercio al dettaglio al di fuori di negozi, banchi e mercati","Questo gruppo include le attività di vendita al dettaglio tramite corrispondenza, via internet, vendita porta a porta, distributori automatici eccetera.",,,,gruppo
+H,49.1,trasporto ferroviario di passeggeri (interurbano),,,,,gruppo
+H,49.2,trasporto ferroviario di merci,,,,,gruppo
+H,49.3,altri trasporti terrestri di passeggeri,Questo gruppo include tutte le attività di trasporto terrestre di passeggeri (esclusi i trasporti ferroviari). Tuttavia in questo gruppo è incluso il trasporto su rotaia effettuato come parte del sistema di trasporto urbano o suburbano.,,,esclusi i trasporti ferroviari,gruppo
+H,49.4,trasporto di merci su strada e servizi di trasloco,Questo gruppo include tutti i tipi di trasporto terrestre di merci (esclusi i trasporti ferroviari).,,,esclusi i trasporti ferroviari,gruppo
+H,49.5,trasporto mediante condotte,,,,,gruppo
+H,50.1,trasporto marittimo e costiero di passeggeri,Questo gruppo include il trasporto di passeggeri effettuato su natanti progettati per navigare in mare aperto o in acque costiere.,,,,gruppo
+H,50.2,trasporto marittimo e costiero di merci,Questo gruppo include il trasporto di merci su natanti progettati per navigare in mare aperto e in acque costiere.,,,,gruppo
+H,50.3,trasporto di passeggeri per vie d'acqua interne,,,,,gruppo
+H,50.4,trasporto di merci per vie d'acqua interne,,,,,gruppo
+H,51.1,trasporto aereo di passeggeri,,,,,gruppo
+H,51.2,trasporto aereo di merci e trasporto spaziale,,,,,gruppo
+H,52.1,magazzinaggio e custodia,,,,,gruppo
+H,52.2,attività di supporto ai trasporti,"Questo gruppo include le attività di supporto al trasporto di passeggeri o merci, quali la gestione di parti delle infrastrutture o delle attività legate alla movimentazione delle merci, effettuate immediatamente prima o dopo un'operazione di trasporto, o durante le successive tappe del trasporto. È inclusa l'attività delle biglietterie diverse dalle agenzie di viaggio. È escluso il servizio di radiocontrollo satellitare dei mezzi di trasporto, cfr. 80.20",,,,gruppo
+H,53.1,attività postali con obbligo di servizio universale,,,,,gruppo
+H,53.2,altre attività postali e di corriere,,,,,gruppo
+I,55.1,alberghi e strutture simili,,,,,gruppo
+I,55.2,alloggi per vacanze e altre strutture per brevi soggiorni,,,,,gruppo
+I,55.3,aree di campeggio e aree attrezzate per camper e roulotte,,,,,gruppo
+I,55.9,altri alloggi,,,,,gruppo
+I,56.1,ristoranti e attività di ristorazione mobile,,,,,gruppo
+I,56.2,fornitura di pasti preparati (catering) e altri servizi di ristorazione,"Questo gruppo include la fornitura di pasti preparati (catering) per eventi individuali o per un determinato periodo di tempo, nonché la gestione di esercizi di ristorazione in concessione.",,,,gruppo
+I,56.3,bar e altri esercizi simili senza cucina,,,,,gruppo
+J,58.1,"edizione di libri, periodici ed altre attività editoriali","Questo gruppo include attività di edizione di libri, giornali, riviste ed altri periodici, elenchi e mailing list, nonché di fotografie, incisioni, cartoline postali, calendari, moduli, manifesti e riproduzioni di opere d'arte. Tali opere sono caratterizzate dalla creatività intellettuale richiesta per il loro sviluppo e sono generalmente protette dal copyright.",,,,gruppo
+J,58.2,edizione di software,,,,,gruppo
+J,59.1,"attività di produzione, post-produzione e distribuzione cinematografica, di video e di programmi televisivi","Questo gruppo include la produzione di spettacoli cinematografici su pellicola, videocassetta o Dvd o altro supporto, inclusa la distribuzione digitale, per la proiezione diretta in sale cinematografiche o per la trasmissione in televisione; le attività di assistenza quali l'editing, il montaggio, il doppiaggio eccetera, la distribuzione ad altre industrie di pellicole cinematografiche (videocassette, Dvd eccetera) e di altre produzioni e la loro proiezione. È inclusa anche l'acquisto e la vendita dei diritti di distribuzione delle produzioni cinematografiche.",,,,gruppo
+J,59.2,attività di registrazione sonora e di editoria musicale,,,,,gruppo
+J,60.1,trasmissioni radiofoniche,,,,,gruppo
+J,60.2,attività di programmazione e trasmissioni televisive,,,,,gruppo
+J,61.1,telecomunicazioni fisse,,,,,gruppo
+J,61.2,telecomunicazioni mobili,,,,,gruppo
+J,61.3,telecomunicazioni satellitari,,,,,gruppo
+J,61.9,altre attività di telecomunicazione,,,,,gruppo
+J,62.0,"produzione di software, consulenza informatica e attività connesse",,,,,gruppo
+J,63.1,"elaborazione dei dati, hosting e attività connesse; portali web","Questo gruppo include la fornitura di servizi di hosting, elaborazione dei dati e simili, nonché la gestione di motori di ricerca e altri portali internet.",,,,gruppo
+J,63.9,altre attività dei servizi d'informazione,"Questo gruppo include le attività delle agenzie di stampa e tutte le altre attività dei servizi di informazione. Sono escluse le seguenti attività: - attività di biblioteche e archivi, cfr. 91.01",,"- attività di biblioteche e archivi, cfr. 91.01",,gruppo
+K,64.1,intermediazione monetaria,"Questo gruppo include la raccolta di fondi nella forma di depositi a vista, cioè fondi a valore nominale certo, liberamente rimborsabili o trasferibili e, ad eccezione dell'attività della banca centrale, ottenuti da operatori non finanziari.",,,,gruppo
+K,64.2,attività delle società di partecipazione (holding),,,,,gruppo
+K,64.3,"società fiduciarie, fondi e altre società simili",,,,,gruppo
+K,64.9,altre attività di servizi finanziari (escluse le assicurazioni e i fondi pensione),"Questo gruppo include le intermediazioni finanziarie diverse da quelle condotte da istituzioni monetarie. Sono escluse le seguenti attività: - assicurazioni e fondi pensione, cfr. divisione 65",,"- assicurazioni e fondi pensione, cfr. divisione 65",,gruppo
+K,65.1,assicurazioni,"Questo gruppo comprende l'attività di assicurazione e riassicurazione sulla vita, con o senza caratteristiche di strumenti di capitalizzazione, e le assicurazioni diverse da quelle sulla vita.",,,,gruppo
+K,65.2,riassicurazioni,,,,,gruppo
+K,65.3,fondi pensione,,,,,gruppo
+K,66.1,attività ausiliarie dei servizi finanziari (escluse le assicurazioni e i fondi pensione),"Questo gruppo comprende l'attività delle unità che forniscono la disponibilità di mercati fisici o telematici allo scopo di facilitare l'acquisto e la vendita di azioni, stock options, titoli obbligazionari o contratti su merci.",,,,gruppo
+K,66.2,attività ausiliarie delle assicurazioni e dei fondi pensione,"Questo gruppo include le attività di coloro che agiscono in qualità di agenti (ovvero mediatori) nella vendita di rendite vitalizie e polizze assicurative o nell'erogazione di altri benefici o servizi relativi alle assicurazioni e ai fondi pensione, come la liquidazione degli indennizzi e l'attività di gestione delle polizze assicurative di una impresa o di un gruppo di imprese da parte di soggetti diversi dalla società di assicurazione e dall'assicurato.",,,,gruppo
+K,66.3,attività di gestione dei fondi,,,,,gruppo
+L,68.1,compravendita di beni immobili effettuata su beni propri,,,,,gruppo
+L,68.2,affitto e gestione di immobili di proprietà o in leasing,,,,,gruppo
+L,68.3,attività immobiliari per conto terzi,,,,,gruppo
+M,69.1,attività degli studi legali,,,,,gruppo
+M,69.2,"contabilità, controllo e revisione contabile, consulenza in materia fiscale e del lavoro",,,,,gruppo
+M,70.1,attività di direzione aziendale,,,,,gruppo
+M,70.2,attività di consulenza gestionale,,,,,gruppo
+M,71.1,"attività degli studi di architettura, ingegneria ed altri studi tecnici","Questo gruppo include le attività degli studi di architettura ed ingegneria, i servizi di stesura di progetti, di ispezione edile, le attività di indagine e di mappatura e simili.",,,,gruppo
+M,71.2,collaudi ed analisi tecniche,,,,,gruppo
+M,72.1,ricerca e sviluppo sperimentale nel campo delle scienze naturali e dell'ingegneria,"Questo gruppo comprende la ricerca di base, la ricerca applicata e lo sviluppo sperimentale nel campo delle scienze naturali e dell'ingegneria.",,,,gruppo
+M,72.2,ricerca e sviluppo sperimentale nel campo delle scienze sociali e umanistiche,,,,,gruppo
+M,73.1,pubblicità,,,,,gruppo
+M,73.2,ricerche di mercato e sondaggi di opinione,,,,,gruppo
+M,74.1,attività di design specializzate,,,,,gruppo
+M,74.2,attività fotografiche,,,,,gruppo
+M,74.3,traduzione e interpretariato,,,,,gruppo
+M,74.9,"altre attività professionali, scientifiche e tecniche n.c.a.",,,,,gruppo
+M,75.0,servizi veterinari,,,,,gruppo
+N,77.1,noleggio di autoveicoli,,,,,gruppo
+N,77.2,noleggio di beni per uso personale e per la casa,"Questo gruppo include il noleggio di beni per uso personale e per la casa, nonché il noleggio di attrezzature sportive, ricreative e di videocassette. Tali attività includono, generalmente, il noleggio a breve termine di beni, sebbene in alcuni casi possano essere noleggiati per periodi più lunghi.",,,,gruppo
+N,77.3,"noleggio di altre macchine, attrezzature e beni materiali",,,,,gruppo
+N,77.4,concessione dei diritti di sfruttamento di proprietà intellettuale e prodotti simili (escluse le opere protette dal copyright),,,,,gruppo
+N,78.1,attività di agenzie di collocamento,,,,,gruppo
+N,78.2,attività delle agenzie di lavoro temporaneo (interinale),,,,,gruppo
+N,78.3,altre attività di fornitura e gestione di risorse umane,,,,,gruppo
+N,79.1,attività delle agenzie di viaggio e dei tour operator,"Questo gruppo include le attività delle agenzie principalmente impegnate nella vendita di pacchetti di viaggio, gite, servizi di trasporto e sistemazione per il pubblico e per clienti commerciali, le attività di organizzazione e gestione di gite turistiche proposte da agenzie di viaggio o tour operator.",,,,gruppo
+N,79.9,altri servizi di prenotazione e attività connesse,,,,,gruppo
+N,80.1,servizi di vigilanza privata,,,,,gruppo
+N,80.2,servizi connessi ai sistemi di vigilanza,,,,,gruppo
+N,80.3,servizi investigativi privati,,,,,gruppo
+N,81.1,servizi integrati di gestione agli edifici,,,,,gruppo
+N,81.2,attività di pulizia e disinfestazione,"Questo gruppo include i servizi di pulizia effettuati all'interno di immobili di ogni tipo, la pulizia esterna di edifici, la pulizia specializzata per edifici o altro, la pulizia di macchine industriali, la pulizia interna delle cisterne per trasporti su strada o marittimi, le attività di disinfezione e di disinfestazione di edifici e di macchinari industriali, la pulizia delle bottiglie, la pulizia delle strade, la rimozione di neve e ghiaccio. Sono escluse le seguenti attività: - la disinfestazione connessa all'agricoltura, cfr. 01.61 - la pulizia di nuovi edifici immediatamente conseguente alla loro costruzione, cfr. 43.39 - la pulizia con vapore, la sabbiatura e simili attività di pulitura di facciate di edifici, cfr. 43.99 - il lavaggio di tappeti e moquette, di tessuti e di tendaggi, cfr. 96.01",,"- la disinfestazione connessa all'agricoltura, cfr. 01.61 - la pulizia di nuovi edifici immediatamente conseguente alla loro costruzione, cfr. 43.39 - la pulizia con vapore, la sabbiatura e simili attività di pulitura di facciate di edifici, cfr. 43.99 - il lavaggio di tappeti e moquette, di tessuti e di tendaggi, cfr. 96.01",,gruppo
+N,81.3,cura e manutenzione del paesaggio,,,,,gruppo
+N,82.1,attività di supporto per le funzioni d'ufficio,,,,,gruppo
+N,82.2,attività dei call center,,,,,gruppo
+N,82.3,organizzazione di convegni e fiere,,,,,gruppo
+N,82.9,servizi di supporto alle imprese n.c.a.,Questo gruppo include le attività di recupero crediti svolte da agenzie specializzate e tutte quelle attività di supporto alle imprese non classificate altrove.,,,,gruppo
+O,84.1,"amministrazione pubblica: amministrazione generale, economica e sociale","Questo gruppo include le attività generali di amministrazione (esempio amministrazione esecutiva, legislativa, finanziaria eccetera a tutti i livelli di governo) e le attività di supervisione nel settore sociale ed economico.",,,,gruppo
+O,84.2,servizi collettivi delle amministrazioni pubbliche,"Questo gruppo include le attività degli affari esteri, della difesa, dell'ordine e della sicurezza pubblica.",,,,gruppo
+O,84.3,assicurazione sociale obbligatoria,,,,,gruppo
+P,85.1,istruzione prescolastica,,,,,gruppo
+P,85.2,istruzione primaria,,,,,gruppo
+P,85.3,istruzione secondaria,"Questo gruppo include l'erogazione di corsi di istruzione secondaria generale, tecnica e professionale. Sono escluse le seguenti attività: - istruzione per adulti, come definita nel gruppo 85.5",,"- istruzione per adulti, come definita nel gruppo 85.5",,gruppo
+P,85.4,istruzione post-secondaria universitaria e non universitaria,"Questo gruppo include l'erogazione di corsi di istruzione post-secondaria non universitaria e di corsi universitari per il conferimento dei titoli accademici di laurea, laurea specialistica e specializzazione post- laurea. Sono escluse le seguenti attività: - istruzione per adulti, come definita nel gruppo 85.5",,"- istruzione per adulti, come definita nel gruppo 85.5",,gruppo
+P,85.5,altri servizi di istruzione,"Questo gruppo include l'istruzione generale continua, istruzione professionale continua e la formazione per le varie professioni, per hobby o per lo sviluppo conoscitivo personale. Sono escluse le attività comprese nei gruppi 85.1-85.4 - istruzione prescolastica, istruzione primaria, istruzione secondaria ed istruzione superiore. Sono inclusi corsi di preparazione all'attività sportiva, corsi di lingua straniera, corsi di arte, recitazione o musica o altri corsi di formazione specialistici, non assimilabili alle attività di istruzione generale comprese nei gruppi 85.1-85.4",,,,gruppo
+P,85.6,attività di supporto all'istruzione,,,,,gruppo
+Q,86.1,servizi ospedalieri,,,,,gruppo
+Q,86.2,servizi degli studi medici e odontoiatrici,"Questo gruppo include le visite mediche ed i trattamenti effettuati da medici generici, specialisti, inclusi chirurghi, dentisti eccetera. Le attività previste in questo gruppo possono essere svolte in studi privati, in ambulatori in cui operano gruppi di medici ed in cliniche ospedaliere che svolgono servizio ambulatoriale presso aziende, scuole, case di riposo, organizzazioni sindacali, nonché a domicilio degli ammalati. Questo gruppo include anche: - servizi di consulto privato a pazienti ricoverati",,,,gruppo
+Q,86.9,altri servizi di assistenza sanitaria,,,,,gruppo
+Q,87.1,strutture di assistenza infermieristica residenziale,,,,,gruppo
+Q,87.2,"strutture di assistenza residenziale per persone affette da ritardi mentali, disturbi mentali o che abusano di sostanze stupefacenti",,,,,gruppo
+Q,87.3,strutture di assistenza residenziale per anziani e disabili,,,,,gruppo
+Q,87.9,altre strutture di assistenza sociale residenziale,,,,,gruppo
+Q,88.1,assistenza sociale non residenziale per anziani e disabili,,,,,gruppo
+Q,88.9,altre attività di assistenza sociale non residenziale,,,,,gruppo
+R,90.0,"attività creative, artistiche e di intrattenimento",Questo gruppo include attività di creazioni e rappresentazioni artistiche e simili.,,,,gruppo
+R,91.0,"attività di biblioteche, archivi, musei ed altre attività culturali",,,,,gruppo
+R,92.0,"attività riguardanti le lotterie, le scommesse, le case da gioco",,,,,gruppo
+R,93.1,attività sportive,"Questo gruppo include la gestione di impianti sportivi; la gestione di squadre o club sportivi mirata principalmente alla partecipazione ad eventi che si svolgono di fronte ad un pubblico pagante; atleti indipendenti ingaggiati per partecipare ad eventi sportivi o gare dal vivo con spettatori paganti; proprietari di mezzi utilizzati nelle gare, quali automobili, cani, cavalli eccetera principalmente impegnati nella partecipazione a gare o ad altri eventi sportivi con spettatori; allenatori che forniscono servizi specialistici di supporto a chi partecipa ad eventi sportivi o gare; gestori di palazzetti dello sport e stadi; altre attività di organizzazione, promozione o gestione di eventi sportivi n.c.a..",,,,gruppo
+R,93.2,attività ricreative e di divertimento,"Questo gruppo include un'ampia gamma di unità che gestiscono strutture o forniscono servizi mirati a soddisfare diversi interessi. È inclusa la gestione di varie attrazioni quali giostre meccaniche, giochi d'acqua, giochi, spettacoli, esibizioni a tema e aree da picnic.",,,,gruppo
+S,94.1,"attività di organizzazioni economiche, di datori di lavoro e professionali","Questo gruppo include le attività di organizzazioni che promuovono gli interessi dei membri delle organizzazioni economiche e di datori di lavoro. Nel caso delle organizzazioni professionali, sono incluse anche le attività di promozione degli interessi professionali dei membri.",,,,gruppo
+S,94.2,attività dei sindacati di lavoratori dipendenti,,,,,gruppo
+S,94.9,attività di altre organizzazioni associative,"Questo gruppo include le attività delle organizzazioni (escluse le organizzazioni economiche e dei datori di lavoro, le associazioni professionali, i sindacati) che promuovono gli interessi dei propri membri.",,,"escluse le organizzazioni economiche e dei datori di lavoro, le associazioni professionali, i sindacati",gruppo
+S,95.1,riparazione di computer e di apparecchiature per le comunicazioni,"Questo gruppo include la riparazione e la manutenzione di computer, periferiche ed apparecchiature per le comunicazioni.",,,,gruppo
+S,95.2,riparazione di beni per uso personale e per la casa,,,,,gruppo
+S,96.0,altre attività di servizi per la persona,,,,,gruppo
+T,97.0,attività di famiglie e convivenze come datori di lavoro per personale domestico,,,,,gruppo
+T,98.1,produzione di beni indifferenziati per uso proprio da parte di famiglie e convivenze,,,,,gruppo
+T,98.2,produzione di servizi indifferenziati per uso proprio da parte di famiglie e convivenze,,,,,gruppo
+U,99.0,organizzazioni ed organismi extraterritoriali,,,,,gruppo
