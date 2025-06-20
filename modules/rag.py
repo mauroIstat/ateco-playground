@@ -11,7 +11,7 @@ from semantic_search.local import LocalKnowledgeBase
 hf_token = os.getenv("HF_TOKEN")
 
 def build_kb(path: str, model_id: str) -> LocalKnowledgeBase:
-    DESCRIPTOR: bool = """{title}"""
+    DESCRIPTOR: bool = """{title}. {description}"""
 
     ateco_df = pd.read_csv(path)
 
@@ -49,6 +49,16 @@ class Llama:
         self.streamer = TextIteratorStreamer(self.tokenizer, skip_prompt=True, skip_special_tokens=True)
     
     @staticmethod
+    def parse_description(messages: List[str]) -> str:
+        description = ""
+        for m in messages:
+            if m["role"] == "user":
+                description += "[UTENTE]: " + f"{m['content']}\n"
+            elif m["role"] == "assistant":
+                description += "[ASSISTENTE]: " + f"{m['content']}\n"
+        return description
+    
+    @staticmethod
     def parse_prompt(system: str, instruction: str) -> str:
         system_prompt = f"""<|start_header_id|>system<|end_header_id|>
         {system}
@@ -80,6 +90,22 @@ class Llama:
             history += "<|start_header_id|>assistant<|end_header_id|>"
         
         return system_prompt + history
+    
+    def generate_description(self, system: str, history: List[str], max_new_tokens: int = 100) -> str:
+        conversation = self.parse_description(history)
+        prompt = self.parse_prompt(system, conversation)
+        inputs = self.tokenizer(
+            prompt,
+            return_tensors="pt"
+        ).to(self.model.device)
+        outputs = self.model.generate(
+            input_ids=inputs["input_ids"],
+            max_new_tokens=max_new_tokens,
+            do_sample=True,
+            top_p=0.9,
+        )
+        return self.tokenizer.decode(outputs[0], skip_special_tokens=True).strip()
+
 
     def stream_with_history(self, system: str, messages: List[str], max_new_tokens: int = 100):
         prompt = self.parse_history(system, messages)

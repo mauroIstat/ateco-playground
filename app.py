@@ -3,6 +3,7 @@ from modules.rag import Llama, build_kb
 from modules import params
 
 st.title("👷🏻‍♀️👨🏻‍🌾 ATECO 2025")
+st.logo("resources/assistant_logo.png", size="large")
 st.set_page_config(
     page_title="ATECO 2025 Classificatore",
     page_icon="📌",
@@ -27,7 +28,7 @@ if "llm" not in st.session_state:
         st.session_state.llm = Llama(model_id="meta-llama/Llama-3.2-3B-Instruct")
 
 for message in st.session_state.messages:
-    with st.chat_message(message["role"]):
+    with st.chat_message(message["role"], avatar=message["avatar"] if "avatar" in message else None):
         st.markdown(message["content"])
 
 if prompt := st.chat_input("Descrivi la tua attività. Ad esempio: \"Produzione di vini\" o \"Attività di scenografi\"."):
@@ -62,3 +63,8 @@ with st.sidebar:
         st.session_state.messages = []
         st.session_state.history = []
         st.success("Cronologia cancellata.")
+    #st.markdown(st.session_state.llm.generate_description(
+    #    system=params.LLM["system_prompt_parsing"], 
+    #    history=st.session_state.history,
+    #    max_new_tokens=512
+    #))
