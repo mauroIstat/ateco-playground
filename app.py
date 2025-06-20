@@ -1,28 +1,30 @@
 import streamlit as st
-import torch
-from transformers import pipeline
-from modules.build_kb import build_kb
-from semantic_search.data import build_corpus
-from semantic_search.local import LocalKnowledgeBase
+from modules.rag import Llama, build_kb
+from modules import params
 
 st.title("👷🏻‍♀️👨🏻‍🌾 ATECO 2025")
+st.set_page_config(
+    page_title="ATECO 2025 Classificatore",
+    page_icon="📌",
+    layout="centered",
+)
 st.markdown("Cerca il codice ATECO della tua attività tramite linguaggio naturale.")
 
 if "kb" not in st.session_state:
-    with st.spinner("Caricamento della Knowledge Base..."):
+    with st.spinner("Creazione della Knowledge Base..."):
         st.session_state.kb = build_kb(
             path="classification/ateco_2025/ateco_2025_level_4.csv",
             model_id="BAAI/bge-m3"
         )
 if "messages" not in st.session_state:
     st.session_state.messages = []
+
+if "history" not in st.session_state:
+    st.session_state.history = []
+
 if "llm" not in st.session_state:
     with st.spinner("Caricamento del modello..."):
-        st.session_state.llm = pipeline("text-generation", model="google/gemma-3-1b-it", device="cuda", torch_dtype=torch.bfloat16)
-
-def stream_response(prompt: str):
-    for chunk in st.session_state.llm.stream(prompt):
-        yield chunk
+        st.session_state.llm = Llama(model_id="meta-llama/Llama-3.2-3B-Instruct")
 
 for message in st.session_state.messages:
     with st.chat_message(message["role"]):
@@ -31,9 +33,9 @@ for message in st.session_state.messages:
 
 if prompt := st.chat_input("Descrivi la tua attività. Ad esempio: \"Produzione di vini\" o \"Attività di scenografi\"."):
     st.chat_message("user").markdown(prompt)
-    st.session_state.messages.append({"role": "user", "content": prompt})
+    all_prompts = ". ".join([m["content"] for m in st.session_state.messages if m["role"] == "user"]) if st.session_state.messages else prompt
 
-    results = st.session_state.kb.search(prompt, top_k=5)
+    results = st.session_state.kb.search(all_prompts, top_k=5)
     mrkwn = []
     for result in results:
         codes = [r.metadata["code"] for r in result]
@@ -41,24 +43,20 @@ if prompt := st.chat_input("Descrivi la tua attività. Ad esempio: \"Produzione 
         mrkwn = [f"**{c}**: {n}" for c, n in zip(codes, names)]
     
     candidates = '\n\n'.join(mrkwn)
-    
-    messages = [
-        [
-            {
-                "role": "system",
-                "content": [{"type": "text", "text": f"Sei un assistente per la classificazione di imprese in codici ATECO 2025 partendo dalle descrizioni delle loro attività. Ricevi 5 codici candidati, scegli il più opportuno, anche facendo domande per scegliere tra più codici o se credi che il codice giusto non sia tra i candidati. Rispondi in maniera concisa."},]
-            },
-            {
-                "role": "user",
-                "content": [{"type": "text", "text": f"Descrizione: {prompt}\n\nCandidati: {candidates}"},]
-            },
-        ],
-    ]
+    parsed_prompt = params.LLM["instruction_template"].format(description=prompt, candidates=candidates)
+    st.session_state.messages.append({"role": "user", "content": prompt})
+    st.session_state.history.append({"role": "user", "content": parsed_prompt})
 
-    output = st.session_state.llm(messages, max_new_tokens=100)[0][0]["generated_text"][2]["content"]
+    with st.chat_message("assistant", avatar="resources/chatbot_ateco_logo.png"):
+        full_resp = st.write_stream(st.session_state.llm.stream_with_history(
+            system=params.LLM["system_prompt"], messages=st.session_state.history, max_new_tokens=512)
+        )
+        st.info("#### Candidati\n" + candidates)
+    st.session_state.messages.append({"role": "assistant", "content": full_resp, "avatar": "resources/chatbot_ateco_logo.png"})
+    st.session_state.history.append({"role": "assistant", "content": full_resp})
 
-    with st.chat_message("assistant"):
-        st.markdown(output)
-        with st.expander("Mostra tutti i candidati", expanded=True):
-            st.markdown(candidates)
-    st.session_state.messages.append({"role": "assistant", "content": output})
+with st.sidebar:
+    if st.button("Cancella cronologia"):
+        st.session_state.messages = []
+        st.session_state.history = []
+        st.success("Cronologia cancellata.")
