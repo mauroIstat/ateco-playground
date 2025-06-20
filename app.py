@@ -30,11 +30,13 @@ for message in st.session_state.messages:
     with st.chat_message(message["role"]):
         st.markdown(message["content"])
 
-
 if prompt := st.chat_input("Descrivi la tua attività. Ad esempio: \"Produzione di vini\" o \"Attività di scenografi\"."):
     st.chat_message("user").markdown(prompt)
-    all_prompts = ". ".join([m["content"] for m in st.session_state.messages if m["role"] == "user"]) if st.session_state.messages else prompt
-
+   
+    prompt_list = [m["content"] for m in st.session_state.messages if m["role"] == "user"] if st.session_state.messages else []
+    prompt_list.append(prompt)
+    
+    all_prompts = ". ".join(prompt_list)
     results = st.session_state.kb.search(all_prompts, top_k=5)
     mrkwn = []
     for result in results:
