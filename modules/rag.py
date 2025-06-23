@@ -1,6 +1,7 @@
 import os
 import pandas as pd
 import torch
+import string
 from threading import Thread
 from typing import List
 from transformers import AutoTokenizer, AutoModelForCausalLM
@@ -11,14 +12,14 @@ from semantic_search.local import LocalKnowledgeBase
 hf_token = os.getenv("HF_TOKEN")
 
 def build_kb(path: str, model_id: str) -> LocalKnowledgeBase:
-    DESCRIPTOR: bool = """{title}. {description}"""
+    DESCRIPTOR: bool = """{title}"""
 
     ateco_df = pd.read_csv(path)
 
     descriptors = []
     for idx, row in ateco_df.iterrows():
         title = row["title"]
-        description = row["description"]
+        description = row["descriptor"]
         if pd.isna(description):
             description = ""
         if pd.isna(title):
@@ -28,7 +29,7 @@ def build_kb(path: str, model_id: str) -> LocalKnowledgeBase:
     corpus = build_corpus(
         texts=descriptors,
         ids=ateco_df.index,
-        metadata=[{"code": c} for c in ateco_df["code"]],
+        metadata=[{"code": c, "title": t} for c, t in zip(ateco_df["code"], ateco_df["title"])],
     )
 
     return LocalKnowledgeBase(
@@ -36,6 +37,47 @@ def build_kb(path: str, model_id: str) -> LocalKnowledgeBase:
         model_id=model_id,
         batch_size=64
     )
+
+def build_multivector_kb(path: str, model_id: str) -> LocalKnowledgeBase:
+    df = pd.read_csv(path)
+    codes = []
+    texts = []
+    titles = []
+    parsed_descs = []
+
+    for i, row in df.iterrows():
+        descs = split_descriptor(row["descriptor"])
+
+        for desc in descs:
+            codes.append(row["code"])
+            texts.append(desc)
+            titles.append(row["title"])
+            parsed_descs.append(parse_descriptor(row["descriptor"]))
+    
+    corpus = build_corpus(
+        texts=texts,
+        ids=list(range(len(texts))),
+        metadata=[{"code": c, "title": t, "description": d} for c, t, d in zip(codes, titles, parsed_descs)],
+    )
+
+    return LocalKnowledgeBase(
+        corpus,
+        model_id=model_id,
+        batch_size=64
+    )
+
+def split_descriptor(desc: str) -> List[str]:
+    return desc.split("\n\n") if type(desc) == str else []
+
+def parse_descriptor(desc: str) -> str:
+    indices = list(string.ascii_lowercase)
+    descs = split_descriptor(desc)
+
+    parsed_desc = ""
+    for i, desc in enumerate(descs):
+        parsed_desc += f"{indices[i]}) {desc}\n\n"
+
+    return parsed_desc.rstrip("\n")
 
 
 class Llama:

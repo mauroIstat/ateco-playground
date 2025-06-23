@@ -1,5 +1,7 @@
 import streamlit as st
-from modules.rag import Llama, build_kb
+import numpy as np
+from modules.rag import Llama, build_kb, build_multivector_kb
+from modules.plots import plot_scores
 from modules import params
 
 st.title("👷🏻‍♀️👨🏻‍🌾 ATECO 2025")
@@ -13,8 +15,8 @@ st.markdown("Cerca il codice ATECO della tua attività tramite linguaggio natura
 
 if "kb" not in st.session_state:
     with st.spinner("Creazione della Knowledge Base..."):
-        st.session_state.kb = build_kb(
-            path="classification/ateco_2025/ateco_2025_level_4.csv",
+        st.session_state.kb = build_multivector_kb(
+            path="data/ateco_2025_leaves.csv",
             model_id="BAAI/bge-m3"
         )
 if "messages" not in st.session_state:
@@ -42,13 +44,31 @@ if prompt := st.chat_input("Descrivi la tua attività. Ad esempio: \"Produzione 
     mrkwn = []
     for result in results:
         codes = [r.metadata["code"] for r in result]
-        names = [r.text for r in result]
-        mrkwn = [f"**{c}**: {n}" for c, n in zip(codes, names)]
+        names = [r.metadata["title"] for r in result]
+        descs = [r.metadata["description"] for r in result]
+        scores = [r.score for r in result]
+        mrkwn = [f"**{c}**: {n}" for c, n, d in zip(np.unique(codes), np.unique(names), np.unique(descs))]
     
     candidates = '\n\n'.join(mrkwn)
     parsed_prompt = params.LLM["instruction_template"].format(description=prompt, candidates=candidates)
     st.session_state.messages.append({"role": "user", "content": prompt})
     st.session_state.history.append({"role": "user", "content": parsed_prompt})
+
+    with st.sidebar:
+        if st.button("Cancella cronologia"):
+            st.session_state.messages = []
+            st.session_state.history = []
+            st.success("Cronologia cancellata.")
+
+        st.write("### Cronologia")
+        st.plotly_chart(
+            plot_scores(
+                codes=[r.metadata["code"] for r in results[0]],
+                texts=[r.metadata["title"] for r in results[0]],
+                scores=[r.score for r in results[0]]
+            ),
+            use_container_width=True
+        )
 
     with st.chat_message("assistant", avatar="resources/chatbot_ateco_logo.png"):
         full_resp = st.write_stream(st.session_state.llm.stream_with_history(
@@ -57,14 +77,3 @@ if prompt := st.chat_input("Descrivi la tua attività. Ad esempio: \"Produzione 
         st.info("#### Candidati\n" + candidates)
     st.session_state.messages.append({"role": "assistant", "content": full_resp, "avatar": "resources/chatbot_ateco_logo.png"})
     st.session_state.history.append({"role": "assistant", "content": full_resp})
-
-with st.sidebar:
-    if st.button("Cancella cronologia"):
-        st.session_state.messages = []
-        st.session_state.history = []
-        st.success("Cronologia cancellata.")
-    #st.markdown(st.session_state.llm.generate_description(
-    #    system=params.LLM["system_prompt_parsing"], 
-    #    history=st.session_state.history,
-    #    max_new_tokens=512
-    #))
