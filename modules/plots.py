@@ -1,19 +1,15 @@
 import plotly.graph_objects as go
 
+def plot_scores(data, height=100):
+    codes = data["code"].tolist()[::-1]
+    texts = data["title"].tolist()[::-1]
+    scores = data["score"].tolist()[::-1]
 
-def plot_scores(codes, texts, scores):
-    codes = codes[::-1]
-    texts = texts[::-1]
-    scores = scores[::-1]
-
-    # Parameters
-    bar_height = 0.3  # thinner bars
+    bar_height = 0.3
     y_positions = list(range(len(scores)))
 
-    # Create figure
     fig = go.Figure()
 
-    # Add bars
     fig.add_trace(go.Bar(
         x=scores,
         y=y_positions,
@@ -25,7 +21,6 @@ def plot_scores(codes, texts, scores):
         showlegend=False
     ))
 
-    # Add code + title as annotations above each bar
     for y, code, title in zip(y_positions, codes, texts):
         fig.add_annotation(
             x=0, y=y + bar_height / 2 + 0.15,
@@ -37,11 +32,18 @@ def plot_scores(codes, texts, scores):
             xshift=0
         )
 
-    # Style layout
     fig.update_layout(
-        height=400,
-        margin=dict(l=10, r=10, t=20, b=20),
-        xaxis=dict(visible=False),
+        height=height * len(data),
+        margin=dict(l=0, r=0, t=0, b=0),
+        xaxis=dict(
+            range=[-0.1, 1.1],
+            showgrid=True,
+            gridcolor='rgba(255, 255, 255, 0.2)',
+            gridwidth=0.5,
+            tickvals=[i/10 for i in range(11)],
+            ticktext=["" for _ in range(11)],
+            showticklabels=False,
+        ),
         yaxis=dict(
             showticklabels=False,
             showgrid=False,

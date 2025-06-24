@@ -1,3 +1,45 @@
+DESCRIPTIONS = {
+    "chat_placeholder": 'Descrivi la tua attività, ad esempio "Produzione di Vini" o "Coltivazione di Riso".'
+}
+
+COLLECTIONS = {
+    "ateco25-leaf": {
+        "model_id": "text-embedding-3-large",
+        "vector_size": 3072,
+        "type": "openai",
+    },
+    "istat-data-3072": {
+        "model_id": "text-embedding-3-large",
+        "vector_size": 3072,
+        "type": "openai",
+    },
+}
+
+MODELS = {
+    "embedding": {
+        "text-embedding-3-large": {
+            "vector_size": 3072,
+            "type": "openai",
+        },
+        "BAAI/bge-m3": {
+            "vector_size": 1024,
+            "type": "huggingface",
+        },
+        "paraphrase-multilingual-MiniLM-L12-v2": {
+            "vector_size": 384,
+            "type": "huggingface",
+        }
+    },
+    "llm": {
+        "GPT-4o": {
+            "type": "openai"
+        },
+        "meta-llama/Llama-3.2-3B-Instruct": {
+            "type": "huggingface"
+        }
+    }
+}
+
 LLM = {
     "model_id": "meta-llama/Llama-3.2-3B-Instruct",
 

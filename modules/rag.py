@@ -1,5 +1,6 @@
 import os
 import pandas as pd
+import numpy as np
 import torch
 import string
 from threading import Thread
@@ -45,10 +46,15 @@ def build_multivector_kb(path: str, model_id: str) -> LocalKnowledgeBase:
     titles = []
     parsed_descs = []
 
+
     for i, row in df.iterrows():
         descs = split_descriptor(row["descriptor"])
-
+        final_descs = []
         for desc in descs:
+            final_descriptor = f"#{row["title"]}\n{extract_items(desc)}\n\nPercorso: {row["hierarchy"]}"
+            final_descs.extend(final_descriptor)
+
+        for desc in final_descs:
             codes.append(row["code"])
             texts.append(desc)
             titles.append(row["title"])
@@ -78,6 +84,38 @@ def parse_descriptor(desc: str) -> str:
         parsed_desc += f"{indices[i]}) {desc}\n\n"
 
     return parsed_desc.rstrip("\n")
+
+def extract_items(text):
+    if ":\n*" not in text:
+        return [text]
+
+    lines = text.strip().splitlines()
+    header = ""
+    items = []
+
+    for line in lines:
+        line = line.strip()
+        if line.startswith("*"):
+            item = line[1:].strip()
+            if header:
+                items.append(f"{header} {item}")
+        elif line:  # non-empty line that's not a list item
+            header = line.rstrip(":")  # remove trailing colon if present
+
+    return items
+
+def clean_item(text):
+    return text.split(", cfr.")[0]
+
+def parse_retrieved(results):
+    titles = [r.metadata["title"] for r in results[0]]
+    codes = [r.metadata["code"] for r in results[0]]
+    descs = [r.metadata["description"] for r in results[0]]
+    scores = [r.score for r in results[0]]
+    res_df = pd.DataFrame({"title": titles, "code": codes, "description": descs, "score": scores})
+    res_df = res_df.groupby("code").aggregate({
+        "title": np.unique(titles)[0]
+    })
 
 
 class Llama:
