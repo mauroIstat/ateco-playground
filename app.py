@@ -9,13 +9,13 @@ load_dotenv()
 if "base" not in st.session_state:
     with st.spinner("Creazione della Knowledge Base..."):
         st.session_state.base = get_base(
-            path="data/ateco_2025_leaves.csv",
-            model_id="paraphrase-multilingual-MiniLM-L12-v2"
+            path="data/ateco_2025_leaf.csv",
+            model_id="BAAI/bge-m3"
         )
 
 if prompt := st.chat_input(placeholder=params.DESCRIPTIONS["chat_placeholder"]):
     st.chat_message("user").markdown(prompt)
-    results = st.session_state.base.search(prompt, top_k=5)
+    results = st.session_state.base.search(prompt, top_k=10)
     result_df = parse_retrieved(results)
 
     with st.chat_message("assistant", avatar="resources/chatbot_ateco_logo.png"):
@@ -33,3 +33,7 @@ if prompt := st.chat_input(placeholder=params.DESCRIPTIONS["chat_placeholder"]):
         if len(result_df["activity"].unique()) > 1:
             st.markdown("Per aiutarti a scegliere il codice ATECO corretto, ho bisogno di conoscere l'attività principale svolta dall'azienda.")
             st.selectbox("Seleziona l'attività principale", options=result_df["activity"].unique(), key="activity")
+    
+    with st.sidebar:
+        for r in results[0]:
+            print(r.text)

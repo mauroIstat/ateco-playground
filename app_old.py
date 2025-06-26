@@ -15,8 +15,8 @@ st.markdown("Cerca il codice ATECO della tua attività tramite linguaggio natura
 
 if "kb" not in st.session_state:
     with st.spinner("Creazione della Knowledge Base..."):
-        st.session_state.kb = build_multivector_kb(
-            path="data/ateco_2025_leaves.csv",
+        st.session_state.kb = build_kb(
+            path="data/ateco_2025_leaf.csv",
             model_id="BAAI/bge-m3"
         )
 if "messages" not in st.session_state:
