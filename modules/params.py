@@ -1,5 +1,6 @@
 DESCRIPTIONS = {
-    "chat_placeholder": 'Descrivi la tua attività, ad esempio "Produzione di Vini" o "Coltivazione di Riso".'
+    "chat_placeholder": 'Descrivi la tua attività, ad esempio "Produzione di Vini" o "Coltivazione di Riso".',
+    "init_message": "Ho individuato alcuni possibili codici ATECO. Per aiutarmi nella scelta, potresti indicare quale tra le seguenti attività rappresenta di più la tua azienda/professione?"
 }
 
 COLLECTIONS = {
