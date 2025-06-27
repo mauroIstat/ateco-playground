@@ -33,7 +33,7 @@ def plot_scores(data, height=100):
         )
 
     fig.update_layout(
-        height=height * len(data),
+        height=int(max(height * len(data), 10)),
         margin=dict(l=0, r=0, t=0, b=0),
         xaxis=dict(
             range=[-0.1, 1.1],
